@@ -1,4 +1,4 @@
-# PyJama - Joint Angle Measurement Acquisition device
+# JAMA - Joint Angle Measurement Acquisition device
 
 This device was developed to measure joint angles, the use is performed in pairs.
 
@@ -47,7 +47,7 @@ The proposed circuit was built in a [3D Case](https://github.com/tuliofalmeida/j
 
 For the construction of the circuit, the connections must be made as shown in the image, by wiring or using jumpers.
 
-Conections:
+Connections:
  - Battery (+) -> Swtich Button (+)
  - Switch Button (+) -> ESP32 VIN
  - Battery (-) -> ESP32 GND
