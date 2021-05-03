@@ -108,6 +108,12 @@ Step by step:
 - Operation messages will appear in the python interpreter.
 - The file will be saved in the same location as the "client.py" file.
 
+# JAMA Device
+
+Here we present the JAMA device built in a way to facilitate tests and updates in the software.
+
+<img src="https://github.com/tuliofalmeida/jama/blob/main/img/JAMA.png" width="640" height="480">
+
 # Contributing
 
 For minor fixes of code and documentation, please go ahead and submit a pull request.  A gentle introduction to the process can be found [here](https://www.freecodecamp.org/news/a-simple-git-guide-and-cheat-sheet-for-open-source-contributors/).
