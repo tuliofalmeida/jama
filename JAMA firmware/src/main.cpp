@@ -43,7 +43,7 @@ ____________________________________________________
 void setup() {
   Serial.begin(115200);
   serverIP = IPAddress(192,168,137,100);
-  freq = 75
+  freq = 75;
   wifiSTATCPInit();
   addFunctions("imuSendInit",imuSendInit);
 }
