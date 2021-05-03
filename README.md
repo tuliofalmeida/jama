@@ -55,7 +55,7 @@ Conections:
  - ESP32 GND -> GY-80 GND
  - ESP32 GPIO 21 -> GY-80 SDA
  - ESP32 GPIO 22 -> GY-80 SCL
-<img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="640" height="480">
+<img src="https://github.com/tuliofalmeida/jama/blob/main/img/circuito%20esp.png" width="640" height="480">
 
 # Firmware
 
@@ -124,7 +124,7 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 # Publications
 
-The publications related to this project are still in the process of being published. If you publish any paper using JAMA please contact us to update here!
+The publications related to this project are still in the process of being published. If you publish any paper using JAMA please contact us to update [here!](mailto:tuliofalmeida@hotmail.com)
 
 # Credits 
 
