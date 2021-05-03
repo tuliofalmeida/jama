@@ -1,4 +1,4 @@
-# PyJama - Joint Angle Measurement Acquisition
+# PyJama - Joint Angle Measurement Acquisition device
 
 This device was developed to measure joint angles, the use is performed in pairs.
 
@@ -88,6 +88,24 @@ Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
 
 ## Building on ESP32
 
+### Code
+
+Using PlatformIO within the VSCode, add the workspace to the JAMA firmware folder. To work, you must change the IP address in the main file to the IP that you want ESP32 to have, and edit the file "WiFistaTCP_h" and determine the IP and password of the Wi-Fi to be connected.
+
+### Build
+
+To build select PlatformIO with ESP32 connected to the computer and select "Upload and monitor".
+
+### Test
+
+Step by step:
+- Make sure that the ESP32 is connected to power (battery or serial) and to the GY-80 sensor (if it is another sensor, you must change the library)
+- Create a Wi-Fi Hotspot on your computer
+- Make sure the machine's IP and password are correct.
+- Turn on the ESP32
+- 
+
+
 # Contributing
 
 For minor fixes of code and documentation, please go ahead and submit a pull request.  A gentle introduction to the process can be found [here](https://www.freecodecamp.org/news/a-simple-git-guide-and-cheat-sheet-for-open-source-contributors/).
@@ -106,7 +124,7 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 # Publications
 
-The publications related to this project are still in the process of being published. If you publish any work using JAMA please contact us to update here!
+The publications related to this project are still in the process of being published. If you publish any paper using JAMA please contact us to update here!
 
 # Credits 
 
