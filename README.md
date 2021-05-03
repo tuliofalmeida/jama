@@ -10,7 +10,6 @@ This device was developed to measure joint angles, the use is performed in pairs
 - [Firmware](#Firmware)
 - Installing options:
   - [Using PlatformIO](#using-platformio)
-- [Documentation](#documentation)
 - [Contributing](#contributing)  
 - [Credits](#Credits)   
 
@@ -68,11 +67,7 @@ Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
   Cloud9, Codeanywhere, Eclipse Che (Codenvy), Atom, CLion, Eclipse, Emacs, NetBeans, Qt Creator, Sublime Text, VIM, Visual Studio, and VSCode
 - [Project Examples](https://github.com/platformio/platform-espressif32/tree/master/examples)
 
-## Documentation
-
-Documentation for latest development version: https://github.com/espressif/arduino-esp32
-
-## Contributing
+# Contributing
 
 For minor fixes of code and documentation, please go ahead and submit a pull request.  A gentle introduction to the process can be found [here](https://www.freecodecamp.org/news/a-simple-git-guide-and-cheat-sheet-for-open-source-contributors/).
 
@@ -82,7 +77,7 @@ Larger changes (rewriting parts of existing code from scratch, adding new functi
 
 Feature branches with lots of small commits (especially titled "oops", "fix typo", "forgot to add file", etc.) should be squashed before opening a pull request. At the same time, please refrain from putting multiple unrelated changes into a single pull request.
 
-## Credits 
+# Credits 
 
 [AsyncTCP](https://github.com/me-no-dev/AsyncTCP) This is a fully asynchronous TCP library, aimed at enabling trouble-free, multi-connection network environment for Espressif's ESP32 MCUs.
 
