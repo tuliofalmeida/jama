@@ -50,7 +50,9 @@ Conections:
  - ESP32 GPIO 22 -> GY-80 SCL
 <img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="640" height="480">
 
-# Arduino on ESP32
+# Firmware
+
+## Arduino on ESP32
 
 This project brings support for the ESP32 chip to the Arduino environment. It lets you write sketches, using familiar Arduino functions and libraries, and run them directly on ESP32, with no external microcontroller required. Here we are using I2C and Async-TCP communications.
 
