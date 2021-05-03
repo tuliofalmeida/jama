@@ -20,12 +20,14 @@ Building the device
 # Hardware
 
 Materials:
-- [ESP32](https://www.espressif.com/en/products/socs/esp32)
+- [ESP32-DevKit-C](https://www.espressif.com/en/products/socs/esp32)
 - GY-80
   - [L3G4200D](http://www.robotpark.com/image/data/PRO/91459/CD00265057.pdf)
   - [ADXL345](http://www.robotpark.com/image/data/PRO/91459/ADXL345.pdf)
   - [HMC5883L](http://www.robotpark.com/image/data/PRO/91459/HMC5883L_3-Axis_Digital_Compass_IC.pdf)
-![alt text](https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png)
+  - 3D Printed case
+  - 
+![alt text](https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png){:height="50%" width="50%"}
 
 # Arduino on ESP32
 
