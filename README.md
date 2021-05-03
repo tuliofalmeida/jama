@@ -6,6 +6,7 @@ This device was developed to measure joint angles, the use is performed in pairs
 - [Hardware](#Hardware)
   - [Materials](#Materials)
   - [Circuit](#Circuit)
+  - [3D Case](#3D-printed-case)
 - Installing options:
   - [Using PlatformIO](#using-platformio)
 - [Documentation](#documentation)
