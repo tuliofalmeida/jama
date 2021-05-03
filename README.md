@@ -14,7 +14,7 @@ This device was developed to measure joint angles, the use is performed in pairs
 - [PyJAMA](https://github.com/tuliofalmeida/pyjama) PyJama is a friendly python library for analyzing human kinematics data.
 - [EngineeringLibrary](https://github.com/EngineeringLibrary/SistemasdeControle/tree/ongoingOptimization) C++ library for microcontrollers and sensors
 
-Arduino core for ESP32 WiFi chip
+Building the device
 ===========================================
 
 # Arduino on ESP32
