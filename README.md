@@ -11,6 +11,7 @@ This device was developed to measure joint angles, the use is performed in pairs
   - [VSCode](#Using-VSCode)
   - [PlatformIO](#using-platformio)
   - [Building on ESP32](#Building-on-ESP32)
+- [JAMA Device](#Jama-device)
 - [Contributing](#contributing)
 - [Development Team](#Development-Team)  
 - [Publications](#Publications)
