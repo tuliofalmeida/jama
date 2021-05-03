@@ -58,7 +58,10 @@ Connections:
  - ESP32 GND -> GY-80 GND
  - ESP32 GPIO 21 -> GY-80 SDA
  - ESP32 GPIO 22 -> GY-80 SCL
-<img src="https://github.com/tuliofalmeida/jama/blob/main/img/circuit.png" width="640" height="480">
+
+<p align="center">
+  <img width="640" height="480" src="https://github.com/tuliofalmeida/jama/blob/main/img/circuit.png">
+</p>
 
 # Firmware
 
@@ -115,7 +118,9 @@ Step by step:
 
 Here we present the JAMA device built in a way to facilitate tests and updates in the software.
 
-<img src="https://github.com/tuliofalmeida/jama/blob/main/img/JAMA.png" width="1080" height="1920">
+<p align="center">
+  <img width="1080" height="1920" src="https://github.com/tuliofalmeida/jama/blob/main/img/JAMA.png">
+</p>
 
 # Contributing
 
