@@ -124,7 +124,7 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 # Publications
 
-The publications related to this project are still in the process of being published. If you publish any paper using JAMA please contact us to update [here!](mailto:tuliofalmeida@hotmail.com?subject=[GitHub] JAMA paper)
+The publications related to this project are still in the process of being published. If you publish any paper using JAMA please contact us to update [here!](mailto:tuliofalmeida@hotmail.com?subject=GitHub - JAMA paper)
 
 # Credits 
 
