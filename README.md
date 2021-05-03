@@ -28,11 +28,22 @@ Building the device
   
 ### 3D printed case
 
-The proposed circuit was built in a [3D Case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case) available openly. The file has 2 models, the smallest was designed to be used with small 3.7 V batteries and the largest for large batteries. The holes were not made in the model in order to make it easy to adapt (sensor, battery or ESP model), for use in this project the holes can be made by hand.
+The proposed circuit was built in a [3D Case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case) available openly. The file has 2 models, the model shown on the right of the image was designed to be used with small 3.7 V batteries and the other for large batteries. The holes were not made in the model in order to make it easy to adapt (sensor, battery or ESP model), for use in this project the holes can be made by hand.
 
 <img src="https://github.com/tuliofalmeida/jama/blob/main/3D%20case/models.png" width="640" height="480">
   
 ## Circuit
+
+For the construction of the circuit, the connections must be made as shown in the image, by wiring or using jumpers.
+
+Conections:
+ - Battery (+) -> Swtich Button (+)
+ - Switch Button (+) -> ESP32 VIN
+ - Battery (-) -> ESP32 GND
+ - ESP32 3.3V -> GY-80 VCC_3.3V
+ - ESP32 GND -> GY-80 GND
+ - ESP32 GPIO 21 -> GY-80 SDA
+ - ESP32 GPIO 22 -> GY-80 SCL
 <img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="640" height="480">
 
 # Arduino on ESP32
