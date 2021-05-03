@@ -26,7 +26,8 @@ Materials:
   - [ADXL345](http://www.robotpark.com/image/data/PRO/91459/ADXL345.pdf)
   - [HMC5883L](http://www.robotpark.com/image/data/PRO/91459/HMC5883L_3-Axis_Digital_Compass_IC.pdf)
   - 3D Printed case
-  - 
+  -
+<img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="100" height="100">
 ![alt text](https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png){:height="50%" width="50%"}
 
 # Arduino on ESP32
