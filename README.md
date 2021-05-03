@@ -18,6 +18,7 @@ This device was developed to measure joint angles, the use is performed in pairs
 
 # Quick links
 
+Related libraries for the development and use of JAMA
 - [PyJama](https://github.com/tuliofalmeida/pyjama) PyJama is a friendly python library for analyzing human kinematics data.
 - [EngineeringLibrary](https://github.com/EngineeringLibrary/SistemasdeControle/tree/ongoingOptimization) C++ library for microcontrollers and sensors
 
