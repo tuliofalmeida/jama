@@ -29,15 +29,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
-#-------------------------------------------------
-#Variables to be edited
-data_name = 'Data_1.txt'
-on_time = 120
-frequency = 75
-ip1 = '192.168.137.100' #edit the IP of device 1
-ip2 = '192.168.137.101' #edit the IP of device 2
-port = 4000
-#-------------------------------------------------
+#_________________________________________________________________________
+# Variables to be edited
+data_name = 'Data_1.txt' # File name
+on_time = 120 # Acquisition time
+frequency = 75 # Acquisition frequency (must be the same as ESP)
+ip1 = '192.168.137.100' # edit the IP of device 1
+ip2 = '192.168.137.101' # edit the IP of device 2
+gate = 4000 # If you change the gate here, you must change on ESP32 too.
+#_________________________________________________________________________
 
 data = [[],[],[],[],[],[],[],[]]
 dataTemp = [[],[],[],[],[],[],[],[]]
@@ -64,10 +64,10 @@ def clientTCP(HOST,PORT,indEsp):
     tcp.close()
 
 def worker1(message):
-    clientTCP(ip1,port,0) 
+    clientTCP(ip1,gate,0) 
 
 def worker2(message):
-    clientTCP(ip2,port,1) 
+    clientTCP(ip2,gate,1) 
 
 t1 = threading.Thread(target=worker1,args=("Thread being executed",));t1.start()
 t2 = threading.Thread(target=worker2,args=("Thread being executed ",));t2.start()
