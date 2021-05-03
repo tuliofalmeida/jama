@@ -55,7 +55,7 @@ Connections:
  - ESP32 GND -> GY-80 GND
  - ESP32 GPIO 21 -> GY-80 SDA
  - ESP32 GPIO 22 -> GY-80 SCL
-<img src="https://github.com/tuliofalmeida/jama/blob/main/img/circuito%20esp.png" width="640" height="480">
+<img src="https://github.com/tuliofalmeida/jama/blob/main/img/circuit.png" width="640" height="480">
 
 # Firmware
 
