@@ -24,6 +24,8 @@ Related libraries for the development and use of JAMA
 
 Building the device
 ===========================================
+This section contains information for building JAMA
+
 # Hardware
 
 This section covers how to build the proposed hardware.
