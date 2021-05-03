@@ -96,15 +96,17 @@ Using PlatformIO within the VSCode, add the workspace to the JAMA firmware folde
 
 To build select PlatformIO with ESP32 connected to the computer and select "Upload and monitor".
 
-### Test
+### Using
 
 Step by step:
-- Make sure that the ESP32 is connected to power (battery or serial) and to the GY-80 sensor (if it is another sensor, you must change the library)
-- Create a Wi-Fi Hotspot on your computer
 - Make sure the machine's IP and password are correct.
-- Turn on the ESP32
-- 
-
+- Make sure the firmware is uploaded to ESP32.
+- Create a Wi-Fi Hotspot on your computer.
+- Make sure that the ESP32 is connected to power (battery or serial) and to the GY-80 sensor (if it is another sensor, you must change the library).
+- Turn on the ESP32.
+- Open and run the file "client.py"
+- Operation messages will appear in the python interpreter.
+- The file will be saved in the same location as the "client.py" file.
 
 # Contributing
 
