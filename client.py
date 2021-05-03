@@ -5,6 +5,7 @@ import numpy as np
 import csv
 from threading import Lock
 
+#-------------------------------------------------
 #Variables to be edited
 data_name = 'Data_1.txt'
 on_time = 120
@@ -12,6 +13,7 @@ frequency = 75
 ip1 = '192.168.137.100' #edit the IP of device 1
 ip2 = '192.168.137.101' #edit the IP of device 2
 port = 4000
+#-------------------------------------------------
 
 data = [[],[],[],[],[],[],[],[]]
 dataTemp = [[],[],[],[],[],[],[],[]]
