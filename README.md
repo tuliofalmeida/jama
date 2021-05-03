@@ -103,6 +103,8 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 # Publications
 
+The publications related to this project are still in the process of being published. If you publish any work using JAMA please contact us to update here!
+
 # Credits 
 
 [AsyncTCP](https://github.com/me-no-dev/AsyncTCP) This is a fully asynchronous TCP library, aimed at enabling trouble-free, multi-connection network environment for Espressif's ESP32 MCUs.
