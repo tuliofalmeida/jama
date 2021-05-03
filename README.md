@@ -4,8 +4,8 @@ This device was developed to measure joint angles, the use is performed in pairs
 
 # Contents
 - [Hardware](#Hardware)
-  - [Materials](## Materials)
-  - [](##Circuit)
+  - [Materials](#Materials)
+  - [Circuit](#Circuit)
 - Installing options:
   - [Using PlatformIO](#using-platformio)
 - [Documentation](#documentation)
