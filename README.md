@@ -19,22 +19,22 @@ Building the device
 ===========================================
 # Hardware
 
-Materials:
+## Materials:
 - [ESP32-DevKit-C](https://www.espressif.com/en/products/socs/esp32)
 - GY-80
   - [L3G4200D](http://www.robotpark.com/image/data/PRO/91459/CD00265057.pdf)
   - [ADXL345](http://www.robotpark.com/image/data/PRO/91459/ADXL345.pdf)
   - [HMC5883L](http://www.robotpark.com/image/data/PRO/91459/HMC5883L_3-Axis_Digital_Compass_IC.pdf)
-  - 3D Printed case
-  -
+  - [3D printed case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case)
+  
+Circuit
 <img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="640" height="480">
-![alt text](https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png){:height="50%" width="50%"}
 
 # Arduino on ESP32
 
 This project brings support for the ESP32 chip to the Arduino environment. It lets you write sketches, using familiar Arduino functions and libraries, and run them directly on ESP32, with no external microcontroller required. Here we are using I2C and Async-TCP communications.
 
-### Using PlatformIO
+## Using PlatformIO
 
 [PlatformIO](https://platformio.org/) is an open source ecosystem for IoT
 development with a cross-platform build system, a library manager, and full support
@@ -46,11 +46,11 @@ Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
   Cloud9, Codeanywhere, Eclipse Che (Codenvy), Atom, CLion, Eclipse, Emacs, NetBeans, Qt Creator, Sublime Text, VIM, Visual Studio, and VSCode
 - [Project Examples](https://github.com/platformio/platform-espressif32/tree/master/examples)
 
-### Documentation
+## Documentation
 
 Documentation for latest development version: https://github.com/espressif/arduino-esp32
 
-### Contributing
+## Contributing
 
 For minor fixes of code and documentation, please go ahead and submit a pull request.  A gentle introduction to the process can be found [here](https://www.freecodecamp.org/news/a-simple-git-guide-and-cheat-sheet-for-open-source-contributors/).
 
@@ -60,7 +60,7 @@ Larger changes (rewriting parts of existing code from scratch, adding new functi
 
 Feature branches with lots of small commits (especially titled "oops", "fix typo", "forgot to add file", etc.) should be squashed before opening a pull request. At the same time, please refrain from putting multiple unrelated changes into a single pull request.
 
-### Credits ###
+## Credits 
 
 [AsyncTCP](https://github.com/me-no-dev/AsyncTCP) This is a fully asynchronous TCP library, aimed at enabling trouble-free, multi-connection network environment for Espressif's ESP32 MCUs.
 
