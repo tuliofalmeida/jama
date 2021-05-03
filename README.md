@@ -26,8 +26,11 @@ Building the device
   - [ADXL345](http://www.robotpark.com/image/data/PRO/91459/ADXL345.pdf)
   - [HMC5883L](http://www.robotpark.com/image/data/PRO/91459/HMC5883L_3-Axis_Digital_Compass_IC.pdf)
   
-### [3D printed case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case)
+### 3D printed case
 
+The proposed circuit was built in a [3D Case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case) available openly. The file has 2 models, the smallest was designed to be used with small 3.7 V batteries and the largest for large batteries. The holes were not made in the model in order to make it easy to adapt (sensor, battery or ESP model), for use in this project the holes can be made by hand.
+
+<img src="https://github.com/tuliofalmeida/jama/blob/main/3D%20case/models.png" width="640" height="480">
   
 ## Circuit
 <img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="640" height="480">
