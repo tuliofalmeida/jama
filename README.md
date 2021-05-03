@@ -8,8 +8,9 @@ This device was developed to measure joint angles, the use is performed in pairs
   - [3D Case](#3D-printed-case)
   - [Circuit](#Circuit)
 - [Firmware](#Firmware)
-- Installing options:
-  - [Using PlatformIO](#using-platformio)
+- Installing:
+  - [VSCode](#Using-VSCode)
+  - [PlatformIO](#using-platformio)
 - [Contributing](#contributing)  
 - [Credits](#Credits)   
 
@@ -21,6 +22,8 @@ This device was developed to measure joint angles, the use is performed in pairs
 Building the device
 ===========================================
 # Hardware
+
+This section covers how to build the proposed hardware.
 
 ## Materials:
 - [ESP32-DevKit-C](https://www.espressif.com/en/products/socs/esp32)
@@ -51,9 +54,19 @@ Conections:
 
 # Firmware
 
+This section discusses how to build the firmware on ESP32.
+
+Conections:
+ - [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
+ - [PlatformIO](#Using-PlatformIO)
+
 ## Arduino on ESP32
 
 This project brings support for the ESP32 chip to the Arduino environment. It lets you write sketches, using familiar Arduino functions and libraries, and run them directly on ESP32, with no external microcontroller required. Here we are using I2C and Async-TCP communications.
+
+## Using VSCode
+
+[VSCode](https://code.visualstudio.com/) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
 
 ## Using PlatformIO
 
@@ -66,6 +79,7 @@ Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
 - [PlatformIO IDE](https://docs.platformio.org/en/latest/tutorials/espressif32/arduino_debugging_unit_testing.html)
   Cloud9, Codeanywhere, Eclipse Che (Codenvy), Atom, CLion, Eclipse, Emacs, NetBeans, Qt Creator, Sublime Text, VIM, Visual Studio, and VSCode
 - [Project Examples](https://github.com/platformio/platform-espressif32/tree/master/examples)
+- [Installing on VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 
 # Contributing
 
