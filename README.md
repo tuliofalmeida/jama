@@ -25,7 +25,9 @@ Building the device
   - [L3G4200D](http://www.robotpark.com/image/data/PRO/91459/CD00265057.pdf)
   - [ADXL345](http://www.robotpark.com/image/data/PRO/91459/ADXL345.pdf)
   - [HMC5883L](http://www.robotpark.com/image/data/PRO/91459/HMC5883L_3-Axis_Digital_Compass_IC.pdf)
-  - [3D printed case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case)
+  
+### [3D printed case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case)
+
   
 ## Circuit
 <img src="https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png" width="640" height="480">
