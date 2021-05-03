@@ -8,15 +8,17 @@ This device was developed to measure joint angles, the use is performed in pairs
   - [3D Case](#3D-printed-case)
   - [Circuit](#Circuit)
 - [Firmware](#Firmware)
-- Installing:
   - [VSCode](#Using-VSCode)
   - [PlatformIO](#using-platformio)
-- [Contributing](#contributing)  
+  - [Building on ESP32](#Building-on-ESP32)
+- [Contributing](#contributing)
+- [Development Team](#Development-Team)  
+- [Publications](#Publications)
 - [Credits](#Credits)   
 
 # Quick links
 
-- [PyJAMA](https://github.com/tuliofalmeida/pyjama) PyJama is a friendly python library for analyzing human kinematics data.
+- [PyJama](https://github.com/tuliofalmeida/pyjama) PyJama is a friendly python library for analyzing human kinematics data.
 - [EngineeringLibrary](https://github.com/EngineeringLibrary/SistemasdeControle/tree/ongoingOptimization) C++ library for microcontrollers and sensors
 
 Building the device
@@ -56,7 +58,7 @@ Conections:
 
 This section discusses how to build the firmware on ESP32.
 
-Conections:
+Softwares:
  - [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
  - [PlatformIO](#Using-PlatformIO)
 
@@ -81,6 +83,8 @@ Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
 - [Project Examples](https://github.com/platformio/platform-espressif32/tree/master/examples)
 - [Installing on VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 
+## Building on ESP32
+
 # Contributing
 
 For minor fixes of code and documentation, please go ahead and submit a pull request.  A gentle introduction to the process can be found [here](https://www.freecodecamp.org/news/a-simple-git-guide-and-cheat-sheet-for-open-source-contributors/).
@@ -90,6 +94,14 @@ Check out the list of issues that are easy to fix. Working on them is a great wa
 Larger changes (rewriting parts of existing code from scratch, adding new functions to the core, adding new libraries) should generally be discussed by opening an issue first. PRs with such changes require testing and approval.
 
 Feature branches with lots of small commits (especially titled "oops", "fix typo", "forgot to add file", etc.) should be squashed before opening a pull request. At the same time, please refrain from putting multiple unrelated changes into a single pull request.
+
+# Development Team:
+
+- Tulio Almeida - [GitHub](https://github.com/tuliofalmeida) - [Scholar](https://scholar.google.com/citations?user=kkOy-JkAAAAJ&hl=pt-BR)
+- Abner Cardoso - [GitHub](https://github.com/abnr) - [Scholar](https://scholar.google.com.br/citations?user=0dTid9EAAAAJ&hl=en)
+- André Dantas - [GitHub](https://github.com/lordcobisco) - [Scholar](https://scholar.google.com.br/citations?user=lH6zW30AAAAJ&hl=en)
+
+# Publications
 
 # Credits 
 
