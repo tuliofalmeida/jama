@@ -3,6 +3,7 @@
 This device was developed to measure joint angles, the use is performed in pairs.
 
 # Contents
+- [Hardware](#Hardware)
 - Installing options:
   - [Using PlatformIO](#using-platformio)
 - [Documentation](#documentation)
@@ -16,6 +17,8 @@ This device was developed to measure joint angles, the use is performed in pairs
 
 Building the device
 ===========================================
+# Hardware
+![alt text](https://github.com/tuliofalmeida/jama/blob/main/circuito%20esp.png)
 
 # Arduino on ESP32
 
