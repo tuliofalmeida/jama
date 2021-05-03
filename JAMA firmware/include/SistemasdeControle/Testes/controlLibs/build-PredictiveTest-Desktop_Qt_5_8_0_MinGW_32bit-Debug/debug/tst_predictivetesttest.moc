@@ -1,0 +1,214 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_predictivetesttest.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_predictivetesttest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_PredictiveTestTest_t {
+    QByteArrayData data[25];
+    char stringdata0[496];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_PredictiveTestTest_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_PredictiveTestTest_t qt_meta_stringdata_PredictiveTestTest = {
+    {
+QT_MOC_LITERAL(0, 0, 18), // "PredictiveTestTest"
+QT_MOC_LITERAL(1, 19, 38), // "ModelPredictiveControlConstru..."
+QT_MOC_LITERAL(2, 58, 0), // ""
+QT_MOC_LITERAL(3, 59, 38), // "ModelPredictiveControlConstru..."
+QT_MOC_LITERAL(4, 98, 38), // "ModelPredictiveControlConstru..."
+QT_MOC_LITERAL(5, 137, 14), // "setLimitsCase1"
+QT_MOC_LITERAL(6, 152, 14), // "setLimitsCase2"
+QT_MOC_LITERAL(7, 167, 14), // "setLimitsCase3"
+QT_MOC_LITERAL(8, 182, 14), // "setLimitsCase4"
+QT_MOC_LITERAL(9, 197, 12), // "setReference"
+QT_MOC_LITERAL(10, 210, 14), // "setErrorWeight"
+QT_MOC_LITERAL(11, 225, 16), // "setControlWeight"
+QT_MOC_LITERAL(12, 242, 15), // "setInitialState"
+QT_MOC_LITERAL(13, 258, 33), // "setOptimizationAlgorithm2Quad..."
+QT_MOC_LITERAL(14, 292, 16), // "setNewModelCase1"
+QT_MOC_LITERAL(15, 309, 16), // "setNewModelCase2"
+QT_MOC_LITERAL(16, 326, 12), // "getReference"
+QT_MOC_LITERAL(17, 339, 14), // "getErrorWeight"
+QT_MOC_LITERAL(18, 354, 15), // "getInitialState"
+QT_MOC_LITERAL(19, 370, 16), // "getControlWeight"
+QT_MOC_LITERAL(20, 387, 16), // "getControlerGain"
+QT_MOC_LITERAL(21, 404, 22), // "OutputControlCalcCase1"
+QT_MOC_LITERAL(22, 427, 22), // "OutputControlCalcCase2"
+QT_MOC_LITERAL(23, 450, 22), // "OutputControlCalcCase3"
+QT_MOC_LITERAL(24, 473, 22) // "OutputControlCalcCase4"
+
+    },
+    "PredictiveTestTest\0"
+    "ModelPredictiveControlConstructorCase1\0"
+    "\0ModelPredictiveControlConstructorCase2\0"
+    "ModelPredictiveControlConstructorCase3\0"
+    "setLimitsCase1\0setLimitsCase2\0"
+    "setLimitsCase3\0setLimitsCase4\0"
+    "setReference\0setErrorWeight\0"
+    "setControlWeight\0setInitialState\0"
+    "setOptimizationAlgorithm2QuadProg\0"
+    "setNewModelCase1\0setNewModelCase2\0"
+    "getReference\0getErrorWeight\0getInitialState\0"
+    "getControlWeight\0getControlerGain\0"
+    "OutputControlCalcCase1\0OutputControlCalcCase2\0"
+    "OutputControlCalcCase3\0OutputControlCalcCase4"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_PredictiveTestTest[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      23,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  129,    2, 0x08 /* Private */,
+       3,    0,  130,    2, 0x08 /* Private */,
+       4,    0,  131,    2, 0x08 /* Private */,
+       5,    0,  132,    2, 0x08 /* Private */,
+       6,    0,  133,    2, 0x08 /* Private */,
+       7,    0,  134,    2, 0x08 /* Private */,
+       8,    0,  135,    2, 0x08 /* Private */,
+       9,    0,  136,    2, 0x08 /* Private */,
+      10,    0,  137,    2, 0x08 /* Private */,
+      11,    0,  138,    2, 0x08 /* Private */,
+      12,    0,  139,    2, 0x08 /* Private */,
+      13,    0,  140,    2, 0x08 /* Private */,
+      14,    0,  141,    2, 0x08 /* Private */,
+      15,    0,  142,    2, 0x08 /* Private */,
+      16,    0,  143,    2, 0x08 /* Private */,
+      17,    0,  144,    2, 0x08 /* Private */,
+      18,    0,  145,    2, 0x08 /* Private */,
+      19,    0,  146,    2, 0x08 /* Private */,
+      20,    0,  147,    2, 0x08 /* Private */,
+      21,    0,  148,    2, 0x08 /* Private */,
+      22,    0,  149,    2, 0x08 /* Private */,
+      23,    0,  150,    2, 0x08 /* Private */,
+      24,    0,  151,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void PredictiveTestTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        PredictiveTestTest *_t = static_cast<PredictiveTestTest *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->ModelPredictiveControlConstructorCase1(); break;
+        case 1: _t->ModelPredictiveControlConstructorCase2(); break;
+        case 2: _t->ModelPredictiveControlConstructorCase3(); break;
+        case 3: _t->setLimitsCase1(); break;
+        case 4: _t->setLimitsCase2(); break;
+        case 5: _t->setLimitsCase3(); break;
+        case 6: _t->setLimitsCase4(); break;
+        case 7: _t->setReference(); break;
+        case 8: _t->setErrorWeight(); break;
+        case 9: _t->setControlWeight(); break;
+        case 10: _t->setInitialState(); break;
+        case 11: _t->setOptimizationAlgorithm2QuadProg(); break;
+        case 12: _t->setNewModelCase1(); break;
+        case 13: _t->setNewModelCase2(); break;
+        case 14: _t->getReference(); break;
+        case 15: _t->getErrorWeight(); break;
+        case 16: _t->getInitialState(); break;
+        case 17: _t->getControlWeight(); break;
+        case 18: _t->getControlerGain(); break;
+        case 19: _t->OutputControlCalcCase1(); break;
+        case 20: _t->OutputControlCalcCase2(); break;
+        case 21: _t->OutputControlCalcCase3(); break;
+        case 22: _t->OutputControlCalcCase4(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject PredictiveTestTest::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_PredictiveTestTest.data,
+      qt_meta_data_PredictiveTestTest,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+};
+
+
+const QMetaObject *PredictiveTestTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *PredictiveTestTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_PredictiveTestTest.stringdata0))
+        return static_cast<void*>(const_cast< PredictiveTestTest*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int PredictiveTestTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 23)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 23;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 23)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 23;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

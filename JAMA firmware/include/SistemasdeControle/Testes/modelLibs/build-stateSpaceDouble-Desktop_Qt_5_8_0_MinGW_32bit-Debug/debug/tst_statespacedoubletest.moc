@@ -1,0 +1,364 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_statespacedoubletest.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_statespacedoubletest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_StateSpaceDoubleTest_t {
+    QByteArrayData data[59];
+    char stringdata0[1001];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_StateSpaceDoubleTest_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_StateSpaceDoubleTest_t qt_meta_stringdata_StateSpaceDoubleTest = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "StateSpaceDoubleTest"
+QT_MOC_LITERAL(1, 21, 23), // "SSVoidConstructorDouble"
+QT_MOC_LITERAL(2, 45, 0), // ""
+QT_MOC_LITERAL(3, 46, 29), // "SSContinuousConstructorDouble"
+QT_MOC_LITERAL(4, 76, 27), // "SSDiscreteConstructorDouble"
+QT_MOC_LITERAL(5, 104, 21), // "copyConstructorDouble"
+QT_MOC_LITERAL(6, 126, 20), // "copyAssignmentDouble"
+QT_MOC_LITERAL(7, 147, 23), // "copyAssignmentOtherType"
+QT_MOC_LITERAL(8, 171, 16), // "stringConversion"
+QT_MOC_LITERAL(9, 188, 13), // "getSampleTime"
+QT_MOC_LITERAL(10, 202, 17), // "getTimeSimulation"
+QT_MOC_LITERAL(11, 220, 27), // "getnDiscretizationParameter"
+QT_MOC_LITERAL(12, 248, 4), // "getA"
+QT_MOC_LITERAL(13, 253, 4), // "getB"
+QT_MOC_LITERAL(14, 258, 4), // "getC"
+QT_MOC_LITERAL(15, 263, 4), // "getD"
+QT_MOC_LITERAL(16, 268, 23), // "getContinuousParameters"
+QT_MOC_LITERAL(17, 292, 21), // "getDiscreteParameters"
+QT_MOC_LITERAL(18, 314, 14), // "getActualState"
+QT_MOC_LITERAL(19, 329, 21), // "getObserverParameters"
+QT_MOC_LITERAL(20, 351, 41), // "getContinuousObserverParamete..."
+QT_MOC_LITERAL(21, 393, 4), // "setA"
+QT_MOC_LITERAL(22, 398, 4), // "setB"
+QT_MOC_LITERAL(23, 403, 4), // "setC"
+QT_MOC_LITERAL(24, 408, 4), // "setD"
+QT_MOC_LITERAL(25, 413, 13), // "setContinuous"
+QT_MOC_LITERAL(26, 427, 13), // "setSampleTime"
+QT_MOC_LITERAL(27, 441, 15), // "setInitialState"
+QT_MOC_LITERAL(28, 457, 21), // "setObserverParameters"
+QT_MOC_LITERAL(29, 479, 12), // "isContinuous"
+QT_MOC_LITERAL(30, 492, 17), // "isObservableCase1"
+QT_MOC_LITERAL(31, 510, 17), // "isObservableCase2"
+QT_MOC_LITERAL(32, 528, 18), // "isControlableCase1"
+QT_MOC_LITERAL(33, 547, 18), // "isControlableCase2"
+QT_MOC_LITERAL(34, 566, 12), // "ObserverLoop"
+QT_MOC_LITERAL(35, 579, 9), // "simScalar"
+QT_MOC_LITERAL(36, 589, 9), // "simMatrix"
+QT_MOC_LITERAL(37, 599, 13), // "c2dConversion"
+QT_MOC_LITERAL(38, 613, 13), // "d2cConversion"
+QT_MOC_LITERAL(39, 627, 5), // "print"
+QT_MOC_LITERAL(40, 633, 12), // "bufferString"
+QT_MOC_LITERAL(41, 646, 23), // "getNDiscretizationValue"
+QT_MOC_LITERAL(42, 670, 23), // "getMinPredictionHorizon"
+QT_MOC_LITERAL(43, 694, 23), // "getMaxPredictionHorizon"
+QT_MOC_LITERAL(44, 718, 17), // "getControlHorizon"
+QT_MOC_LITERAL(45, 736, 23), // "setNDiscretizationValue"
+QT_MOC_LITERAL(46, 760, 23), // "setMinPredictionHorizon"
+QT_MOC_LITERAL(47, 784, 23), // "setMaxPredictionHorizon"
+QT_MOC_LITERAL(48, 808, 17), // "setControlHorizon"
+QT_MOC_LITERAL(49, 826, 14), // "simScalarInOut"
+QT_MOC_LITERAL(50, 841, 14), // "simMatrixInOut"
+QT_MOC_LITERAL(51, 856, 8), // "simRange"
+QT_MOC_LITERAL(52, 865, 20), // "getNumberOfVariables"
+QT_MOC_LITERAL(53, 886, 17), // "getNumberOfInputs"
+QT_MOC_LITERAL(54, 904, 18), // "getNumberOfOutputs"
+QT_MOC_LITERAL(55, 923, 14), // "setLinearModel"
+QT_MOC_LITERAL(56, 938, 15), // "setLinearVector"
+QT_MOC_LITERAL(57, 954, 25), // "getKalmanFilterParameters"
+QT_MOC_LITERAL(58, 980, 20) // "KalmanFilterObserver"
+
+    },
+    "StateSpaceDoubleTest\0SSVoidConstructorDouble\0"
+    "\0SSContinuousConstructorDouble\0"
+    "SSDiscreteConstructorDouble\0"
+    "copyConstructorDouble\0copyAssignmentDouble\0"
+    "copyAssignmentOtherType\0stringConversion\0"
+    "getSampleTime\0getTimeSimulation\0"
+    "getnDiscretizationParameter\0getA\0getB\0"
+    "getC\0getD\0getContinuousParameters\0"
+    "getDiscreteParameters\0getActualState\0"
+    "getObserverParameters\0"
+    "getContinuousObserverParametersByAckerman\0"
+    "setA\0setB\0setC\0setD\0setContinuous\0"
+    "setSampleTime\0setInitialState\0"
+    "setObserverParameters\0isContinuous\0"
+    "isObservableCase1\0isObservableCase2\0"
+    "isControlableCase1\0isControlableCase2\0"
+    "ObserverLoop\0simScalar\0simMatrix\0"
+    "c2dConversion\0d2cConversion\0print\0"
+    "bufferString\0getNDiscretizationValue\0"
+    "getMinPredictionHorizon\0getMaxPredictionHorizon\0"
+    "getControlHorizon\0setNDiscretizationValue\0"
+    "setMinPredictionHorizon\0setMaxPredictionHorizon\0"
+    "setControlHorizon\0simScalarInOut\0"
+    "simMatrixInOut\0simRange\0getNumberOfVariables\0"
+    "getNumberOfInputs\0getNumberOfOutputs\0"
+    "setLinearModel\0setLinearVector\0"
+    "getKalmanFilterParameters\0"
+    "KalmanFilterObserver"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_StateSpaceDoubleTest[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      57,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  299,    2, 0x08 /* Private */,
+       3,    0,  300,    2, 0x08 /* Private */,
+       4,    0,  301,    2, 0x08 /* Private */,
+       5,    0,  302,    2, 0x08 /* Private */,
+       6,    0,  303,    2, 0x08 /* Private */,
+       7,    0,  304,    2, 0x08 /* Private */,
+       8,    0,  305,    2, 0x08 /* Private */,
+       9,    0,  306,    2, 0x08 /* Private */,
+      10,    0,  307,    2, 0x08 /* Private */,
+      11,    0,  308,    2, 0x08 /* Private */,
+      12,    0,  309,    2, 0x08 /* Private */,
+      13,    0,  310,    2, 0x08 /* Private */,
+      14,    0,  311,    2, 0x08 /* Private */,
+      15,    0,  312,    2, 0x08 /* Private */,
+      16,    0,  313,    2, 0x08 /* Private */,
+      17,    0,  314,    2, 0x08 /* Private */,
+      18,    0,  315,    2, 0x08 /* Private */,
+      19,    0,  316,    2, 0x08 /* Private */,
+      20,    0,  317,    2, 0x08 /* Private */,
+      21,    0,  318,    2, 0x08 /* Private */,
+      22,    0,  319,    2, 0x08 /* Private */,
+      23,    0,  320,    2, 0x08 /* Private */,
+      24,    0,  321,    2, 0x08 /* Private */,
+      25,    0,  322,    2, 0x08 /* Private */,
+      26,    0,  323,    2, 0x08 /* Private */,
+      27,    0,  324,    2, 0x08 /* Private */,
+      28,    0,  325,    2, 0x08 /* Private */,
+      29,    0,  326,    2, 0x08 /* Private */,
+      30,    0,  327,    2, 0x08 /* Private */,
+      31,    0,  328,    2, 0x08 /* Private */,
+      32,    0,  329,    2, 0x08 /* Private */,
+      33,    0,  330,    2, 0x08 /* Private */,
+      34,    0,  331,    2, 0x08 /* Private */,
+      35,    0,  332,    2, 0x08 /* Private */,
+      36,    0,  333,    2, 0x08 /* Private */,
+      37,    0,  334,    2, 0x08 /* Private */,
+      38,    0,  335,    2, 0x08 /* Private */,
+      39,    0,  336,    2, 0x08 /* Private */,
+      40,    0,  337,    2, 0x08 /* Private */,
+      41,    0,  338,    2, 0x08 /* Private */,
+      42,    0,  339,    2, 0x08 /* Private */,
+      43,    0,  340,    2, 0x08 /* Private */,
+      44,    0,  341,    2, 0x08 /* Private */,
+      45,    0,  342,    2, 0x08 /* Private */,
+      46,    0,  343,    2, 0x08 /* Private */,
+      47,    0,  344,    2, 0x08 /* Private */,
+      48,    0,  345,    2, 0x08 /* Private */,
+      49,    0,  346,    2, 0x08 /* Private */,
+      50,    0,  347,    2, 0x08 /* Private */,
+      51,    0,  348,    2, 0x08 /* Private */,
+      52,    0,  349,    2, 0x08 /* Private */,
+      53,    0,  350,    2, 0x08 /* Private */,
+      54,    0,  351,    2, 0x08 /* Private */,
+      55,    0,  352,    2, 0x08 /* Private */,
+      56,    0,  353,    2, 0x08 /* Private */,
+      57,    0,  354,    2, 0x08 /* Private */,
+      58,    0,  355,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void StateSpaceDoubleTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        StateSpaceDoubleTest *_t = static_cast<StateSpaceDoubleTest *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->SSVoidConstructorDouble(); break;
+        case 1: _t->SSContinuousConstructorDouble(); break;
+        case 2: _t->SSDiscreteConstructorDouble(); break;
+        case 3: _t->copyConstructorDouble(); break;
+        case 4: _t->copyAssignmentDouble(); break;
+        case 5: _t->copyAssignmentOtherType(); break;
+        case 6: _t->stringConversion(); break;
+        case 7: _t->getSampleTime(); break;
+        case 8: _t->getTimeSimulation(); break;
+        case 9: _t->getnDiscretizationParameter(); break;
+        case 10: _t->getA(); break;
+        case 11: _t->getB(); break;
+        case 12: _t->getC(); break;
+        case 13: _t->getD(); break;
+        case 14: _t->getContinuousParameters(); break;
+        case 15: _t->getDiscreteParameters(); break;
+        case 16: _t->getActualState(); break;
+        case 17: _t->getObserverParameters(); break;
+        case 18: _t->getContinuousObserverParametersByAckerman(); break;
+        case 19: _t->setA(); break;
+        case 20: _t->setB(); break;
+        case 21: _t->setC(); break;
+        case 22: _t->setD(); break;
+        case 23: _t->setContinuous(); break;
+        case 24: _t->setSampleTime(); break;
+        case 25: _t->setInitialState(); break;
+        case 26: _t->setObserverParameters(); break;
+        case 27: _t->isContinuous(); break;
+        case 28: _t->isObservableCase1(); break;
+        case 29: _t->isObservableCase2(); break;
+        case 30: _t->isControlableCase1(); break;
+        case 31: _t->isControlableCase2(); break;
+        case 32: _t->ObserverLoop(); break;
+        case 33: _t->simScalar(); break;
+        case 34: _t->simMatrix(); break;
+        case 35: _t->c2dConversion(); break;
+        case 36: _t->d2cConversion(); break;
+        case 37: _t->print(); break;
+        case 38: _t->bufferString(); break;
+        case 39: _t->getNDiscretizationValue(); break;
+        case 40: _t->getMinPredictionHorizon(); break;
+        case 41: _t->getMaxPredictionHorizon(); break;
+        case 42: _t->getControlHorizon(); break;
+        case 43: _t->setNDiscretizationValue(); break;
+        case 44: _t->setMinPredictionHorizon(); break;
+        case 45: _t->setMaxPredictionHorizon(); break;
+        case 46: _t->setControlHorizon(); break;
+        case 47: _t->simScalarInOut(); break;
+        case 48: _t->simMatrixInOut(); break;
+        case 49: _t->simRange(); break;
+        case 50: _t->getNumberOfVariables(); break;
+        case 51: _t->getNumberOfInputs(); break;
+        case 52: _t->getNumberOfOutputs(); break;
+        case 53: _t->setLinearModel(); break;
+        case 54: _t->setLinearVector(); break;
+        case 55: _t->getKalmanFilterParameters(); break;
+        case 56: _t->KalmanFilterObserver(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject StateSpaceDoubleTest::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_StateSpaceDoubleTest.data,
+      qt_meta_data_StateSpaceDoubleTest,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+};
+
+
+const QMetaObject *StateSpaceDoubleTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *StateSpaceDoubleTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_StateSpaceDoubleTest.stringdata0))
+        return static_cast<void*>(const_cast< StateSpaceDoubleTest*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int StateSpaceDoubleTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 57)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 57;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 57)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 57;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

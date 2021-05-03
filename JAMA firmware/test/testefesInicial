@@ -1,0 +1,72 @@
+#include <iostream>
+#include <time.h>
+#include "esp_system.h"
+#include "rom/ets_sys.h"
+#include "driver/ledc.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/timer.h"
+#include "SistemasdeControle/headers/primitiveLibs/LinAlg/matrix.h"
+#include "SistemasdeControle/embeddedTools/signalAnalysis/bioSignalGenerator.h"
+#include "SistemasdeControle/embeddedTools/communicationLibs/wifi/wifista.h"
+
+double a[4];
+ElectroStimulation::bioSignalController sinal[4];
+uint8_t levelPin[4] = {22,21,19,18},
+        modPin[2]      = {23,5};
+bool flag = false;
+Communication::WifiSTA wifi;
+
+
+// void channel4fes(void*){
+//     while(true){
+//         sinal[0].setModulationTimeOn(0.1);
+//         sinal[2].setModulationTimeOn(0);
+//         sinal[0].setPowerLevel(a[0]);
+//         sinal[2].setPowerLevel(0);
+//         vTaskDelay(2 / portTICK_PERIOD_MS);
+//         sinal[0].setModulationTimeOn(0);
+//         sinal[2].setModulationTimeOn(0.1);
+//         sinal[0].setPowerLevel(0);
+//         sinal[3].setPowerLevel(a[3]);
+//         vTaskDelay(2 / portTICK_PERIOD_MS);
+//     }
+// }
+
+void wifiCallback(Communication::WifiSTA &wifi1)
+{
+    
+    LinAlg::Matrix<double> code = wifi1.getData();
+	std::cout << code;
+   // 
+    //sinal[0].setModulationTimeOn(code(0,4));
+    //sinal[2].setModulationTimeOn(code(0,5));
+    for(uint8_t i = 0; i < 4; ++i)
+        a[i] = code(0,i);
+    /*
+    idStructure->accel.read();
+    std::stringstream ss; ss << std::setw(2*5+1) << std::setprecision(5) << std::fixed;
+    for (uint8_t i = 0; i < 50; ++i) 
+        ss << idStructure->accel.get_filtered_x() << ",  " << idStructure->accel.get_pitch() << ",  " << idStructure->accel.get_roll();
+    wifi << ss.str();
+    std::cout << ss.str();*/
+        
+}
+
+extern "C" void app_main()
+{ 
+    sinal[0].boostInit((gpio_num_t) levelPin[0], 5000,(ledc_channel_t) 0);
+    sinal[1].boostInit((gpio_num_t) levelPin[1], 5000,(ledc_channel_t) 1);
+    sinal[2].boostInit((gpio_num_t) levelPin[2], 5000,(ledc_channel_t) 2);
+    sinal[3].boostInit((gpio_num_t) levelPin[3], 5000,(ledc_channel_t) 3);
+
+    sinal[0].setOutputHandlerDirectPin((gpio_num_t) modPin[0], 50, (ledc_channel_t) 4);
+    sinal[2].setOutputHandlerDirectPin((gpio_num_t) modPin[1], 50, (ledc_channel_t) 5);
+    //sinal[0].setModulationTimeOn(0);
+    //sinal[2].setModulationTimeOn(0);
+    for(uint8_t i = 0; i < 4; ++i)
+        sinal[i].setPowerLevel(0);
+    wifi.connect();
+    //xTaskCreatePinnedToCore(channel4fes, "CLNC",8*1024, NULL,8, NULL, 1);
+    wifi >> wifiCallback; 
+}

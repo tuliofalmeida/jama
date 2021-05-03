@@ -1,0 +1,802 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_polynomdoubletest.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_polynomdoubletest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.8.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_PolynomDoubleTest_t {
+    QByteArrayData data[148];
+    char stringdata0[4360];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_PolynomDoubleTest_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_PolynomDoubleTest_t qt_meta_stringdata_PolynomDoubleTest = {
+    {
+QT_MOC_LITERAL(0, 0, 17), // "PolynomDoubleTest"
+QT_MOC_LITERAL(1, 18, 31), // "constructorPolynomEscalarDouble"
+QT_MOC_LITERAL(2, 50, 0), // ""
+QT_MOC_LITERAL(3, 51, 44), // "constructorPolynomMatrixNumer..."
+QT_MOC_LITERAL(4, 96, 44), // "constructorPolynomMatrixNumer..."
+QT_MOC_LITERAL(5, 141, 44), // "constructorPolynomMatrixNumer..."
+QT_MOC_LITERAL(6, 186, 33), // "PolynomCopyConstructorDoubleC..."
+QT_MOC_LITERAL(7, 220, 33), // "PolynomCopyConstructorDoubleC..."
+QT_MOC_LITERAL(8, 254, 55), // "constructorPolynomMatrixNumer..."
+QT_MOC_LITERAL(9, 310, 55), // "constructorPolynomMatrixNumer..."
+QT_MOC_LITERAL(10, 366, 28), // "constructorPolynomVoidDouble"
+QT_MOC_LITERAL(11, 395, 28), // "destructorPolynomDoubleCase1"
+QT_MOC_LITERAL(12, 424, 28), // "destructorPolynomDoubleCase2"
+QT_MOC_LITERAL(13, 453, 17), // "getVarDoubleCase1"
+QT_MOC_LITERAL(14, 471, 17), // "getVarDoubleCase2"
+QT_MOC_LITERAL(15, 489, 17), // "getVarDoubleCase3"
+QT_MOC_LITERAL(16, 507, 17), // "getVarDoubleCase4"
+QT_MOC_LITERAL(17, 525, 15), // "changeVarDouble"
+QT_MOC_LITERAL(18, 541, 16), // "getNumSizeDouble"
+QT_MOC_LITERAL(19, 558, 16), // "getDenSizeDouble"
+QT_MOC_LITERAL(20, 575, 12), // "getNumDouble"
+QT_MOC_LITERAL(21, 588, 12), // "getDenDouble"
+QT_MOC_LITERAL(22, 601, 17), // "setNumDoubleCase1"
+QT_MOC_LITERAL(23, 619, 17), // "setNumDoubleCase2"
+QT_MOC_LITERAL(24, 637, 17), // "setDenDoubleCase1"
+QT_MOC_LITERAL(25, 655, 17), // "setDenDoubleCase2"
+QT_MOC_LITERAL(26, 673, 20), // "assignOperatorDouble"
+QT_MOC_LITERAL(27, 694, 24), // "copyAssignOperatorDouble"
+QT_MOC_LITERAL(28, 719, 29), // "assignOperatorOtherTypeDouble"
+QT_MOC_LITERAL(29, 749, 39), // "operatorSumAccumulatorScalarD..."
+QT_MOC_LITERAL(30, 789, 39), // "operatorSumAccumulatorScalarD..."
+QT_MOC_LITERAL(31, 829, 39), // "operatorSumAccumulatorScalarD..."
+QT_MOC_LITERAL(32, 869, 39), // "operatorSumAccumulatorScalarD..."
+QT_MOC_LITERAL(33, 909, 39), // "operatorSumAccumulatorScalarD..."
+QT_MOC_LITERAL(34, 949, 40), // "operatorSumAccumulatorPolynom..."
+QT_MOC_LITERAL(35, 990, 40), // "operatorSumAccumulatorPolynom..."
+QT_MOC_LITERAL(36, 1031, 47), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(37, 1079, 47), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(38, 1127, 47), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(39, 1175, 47), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(40, 1223, 47), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(41, 1271, 48), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(42, 1320, 48), // "operatorSubtractionAccumulato..."
+QT_MOC_LITERAL(43, 1369, 50), // "operatorMultiplicationAccumul..."
+QT_MOC_LITERAL(44, 1420, 50), // "operatorMultiplicationAccumul..."
+QT_MOC_LITERAL(45, 1471, 51), // "operatorMultiplicationAccumul..."
+QT_MOC_LITERAL(46, 1523, 51), // "operatorMultiplicationAccumul..."
+QT_MOC_LITERAL(47, 1575, 44), // "operatorDivisionAccumulatorSc..."
+QT_MOC_LITERAL(48, 1620, 44), // "operatorDivisionAccumulatorSc..."
+QT_MOC_LITERAL(49, 1665, 45), // "operatorDivisionAccumulatorPo..."
+QT_MOC_LITERAL(50, 1711, 45), // "operatorDivisionAccumulatorPo..."
+QT_MOC_LITERAL(51, 1757, 45), // "operatorDivisionAccumulatorPo..."
+QT_MOC_LITERAL(52, 1803, 48), // "operatorPotentiationAccumulat..."
+QT_MOC_LITERAL(53, 1852, 48), // "operatorPotentiationAccumulat..."
+QT_MOC_LITERAL(54, 1901, 48), // "operatorPotentiationAccumulat..."
+QT_MOC_LITERAL(55, 1950, 48), // "operatorPotentiationAccumulat..."
+QT_MOC_LITERAL(56, 1999, 28), // "operatorSumScalarDoubleCase1"
+QT_MOC_LITERAL(57, 2028, 28), // "operatorSumScalarDoubleCase2"
+QT_MOC_LITERAL(58, 2057, 28), // "operatorSumScalarDoubleCase3"
+QT_MOC_LITERAL(59, 2086, 28), // "operatorSumScalarDoubleCase4"
+QT_MOC_LITERAL(60, 2115, 28), // "operatorSumScalarDoubleCase5"
+QT_MOC_LITERAL(61, 2144, 28), // "operatorSumScalarDoubleCase6"
+QT_MOC_LITERAL(62, 2173, 28), // "operatorSumScalarDoubleCase7"
+QT_MOC_LITERAL(63, 2202, 28), // "operatorSumScalarDoubleCase8"
+QT_MOC_LITERAL(64, 2231, 28), // "operatorSumScalarDoubleCase9"
+QT_MOC_LITERAL(65, 2260, 29), // "operatorSumScalarDoubleCase10"
+QT_MOC_LITERAL(66, 2290, 29), // "operatorSumPolynomDoubleCase1"
+QT_MOC_LITERAL(67, 2320, 29), // "operatorSumPolynomDoubleCase2"
+QT_MOC_LITERAL(68, 2350, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(69, 2387, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(70, 2424, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(71, 2461, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(72, 2498, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(73, 2535, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(74, 2572, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(75, 2609, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(76, 2646, 36), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(77, 2683, 37), // "operatorSubtractionScalarDoub..."
+QT_MOC_LITERAL(78, 2721, 37), // "operatorSubtractionPolynomDou..."
+QT_MOC_LITERAL(79, 2759, 37), // "operatorSubtractionPolynomDou..."
+QT_MOC_LITERAL(80, 2797, 39), // "operatorMultiplicationScalarD..."
+QT_MOC_LITERAL(81, 2837, 39), // "operatorMultiplicationScalarD..."
+QT_MOC_LITERAL(82, 2877, 39), // "operatorMultiplicationScalarD..."
+QT_MOC_LITERAL(83, 2917, 39), // "operatorMultiplicationScalarD..."
+QT_MOC_LITERAL(84, 2957, 40), // "operatorMultiplicationPolynom..."
+QT_MOC_LITERAL(85, 2998, 40), // "operatorMultiplicationPolynom..."
+QT_MOC_LITERAL(86, 3039, 33), // "operatorDivisionScalarDoubleC..."
+QT_MOC_LITERAL(87, 3073, 33), // "operatorDivisionScalarDoubleC..."
+QT_MOC_LITERAL(88, 3107, 33), // "operatorDivisionScalarDoubleC..."
+QT_MOC_LITERAL(89, 3141, 33), // "operatorDivisionScalarDoubleC..."
+QT_MOC_LITERAL(90, 3175, 34), // "operatorDivisionPolynomDouble..."
+QT_MOC_LITERAL(91, 3210, 34), // "operatorDivisionPolynomDouble..."
+QT_MOC_LITERAL(92, 3245, 37), // "operatorPotentiationScalarDou..."
+QT_MOC_LITERAL(93, 3283, 37), // "operatorPotentiationScalarDou..."
+QT_MOC_LITERAL(94, 3321, 37), // "operatorPotentiationScalarDou..."
+QT_MOC_LITERAL(95, 3359, 37), // "operatorPotentiationScalarDou..."
+QT_MOC_LITERAL(96, 3397, 16), // "equalityOperator"
+QT_MOC_LITERAL(97, 3414, 29), // "operatorDivisionMatrixPolynom"
+QT_MOC_LITERAL(98, 3444, 19), // "minusOperatorDouble"
+QT_MOC_LITERAL(99, 3464, 13), // "derivateCase1"
+QT_MOC_LITERAL(100, 3478, 13), // "derivateCase2"
+QT_MOC_LITERAL(101, 3492, 13), // "derivateCase3"
+QT_MOC_LITERAL(102, 3506, 13), // "derivateCase4"
+QT_MOC_LITERAL(103, 3520, 13), // "derivateCase5"
+QT_MOC_LITERAL(104, 3534, 22), // "printSmallPolynomCase1"
+QT_MOC_LITERAL(105, 3557, 22), // "printSmallPolynomCase2"
+QT_MOC_LITERAL(106, 3580, 22), // "printSmallPolynomCase3"
+QT_MOC_LITERAL(107, 3603, 22), // "printSmallPolynomCase4"
+QT_MOC_LITERAL(108, 3626, 22), // "printSmallPolynomCase5"
+QT_MOC_LITERAL(109, 3649, 22), // "printSmallPolynomCase6"
+QT_MOC_LITERAL(110, 3672, 22), // "printSmallPolynomCase7"
+QT_MOC_LITERAL(111, 3695, 22), // "printSmallPolynomCase8"
+QT_MOC_LITERAL(112, 3718, 22), // "printSmallPolynomCase9"
+QT_MOC_LITERAL(113, 3741, 23), // "printSmallPolynomCase10"
+QT_MOC_LITERAL(114, 3765, 23), // "printSmallPolynomCase11"
+QT_MOC_LITERAL(115, 3789, 23), // "printSmallPolynomCase12"
+QT_MOC_LITERAL(116, 3813, 23), // "printSmallPolynomCase13"
+QT_MOC_LITERAL(117, 3837, 23), // "printSmallPolynomCase14"
+QT_MOC_LITERAL(118, 3861, 23), // "printSmallPolynomCase15"
+QT_MOC_LITERAL(119, 3885, 23), // "printSmallPolynomCase16"
+QT_MOC_LITERAL(120, 3909, 23), // "printSmallPolynomCase17"
+QT_MOC_LITERAL(121, 3933, 23), // "printSmallPolynomCase18"
+QT_MOC_LITERAL(122, 3957, 23), // "printSmallPolynomCase19"
+QT_MOC_LITERAL(123, 3981, 23), // "printSmallPolynomCase20"
+QT_MOC_LITERAL(124, 4005, 23), // "printSmallPolynomCase21"
+QT_MOC_LITERAL(125, 4029, 23), // "printSmallPolynomCase22"
+QT_MOC_LITERAL(126, 4053, 23), // "printSmallPolynomCase23"
+QT_MOC_LITERAL(127, 4077, 23), // "printSmallPolynomCase24"
+QT_MOC_LITERAL(128, 4101, 23), // "printSmallPolynomCase25"
+QT_MOC_LITERAL(129, 4125, 17), // "printPolynomCase1"
+QT_MOC_LITERAL(130, 4143, 17), // "printPolynomCase2"
+QT_MOC_LITERAL(131, 4161, 17), // "printPolynomCase3"
+QT_MOC_LITERAL(132, 4179, 6), // "vefDen"
+QT_MOC_LITERAL(133, 4186, 7), // "sumPoly"
+QT_MOC_LITERAL(134, 4194, 15), // "multPolyPointer"
+QT_MOC_LITERAL(135, 4210, 14), // "multPolyMatrix"
+QT_MOC_LITERAL(136, 4225, 8), // "simplify"
+QT_MOC_LITERAL(137, 4234, 10), // "rootscase1"
+QT_MOC_LITERAL(138, 4245, 10), // "rootscase2"
+QT_MOC_LITERAL(139, 4256, 10), // "rootscase3"
+QT_MOC_LITERAL(140, 4267, 10), // "rootscase4"
+QT_MOC_LITERAL(141, 4278, 10), // "rootscase5"
+QT_MOC_LITERAL(142, 4289, 10), // "rootscase6"
+QT_MOC_LITERAL(143, 4300, 10), // "rootscase7"
+QT_MOC_LITERAL(144, 4311, 10), // "rootscase8"
+QT_MOC_LITERAL(145, 4322, 10), // "rootscase9"
+QT_MOC_LITERAL(146, 4333, 9), // "root2Poly"
+QT_MOC_LITERAL(147, 4343, 16) // "rootsContainRoot"
+
+    },
+    "PolynomDoubleTest\0constructorPolynomEscalarDouble\0"
+    "\0constructorPolynomMatrixNumeratorDoubleCase1\0"
+    "constructorPolynomMatrixNumeratorDoubleCase2\0"
+    "constructorPolynomMatrixNumeratorDoubleCase3\0"
+    "PolynomCopyConstructorDoubleCase1\0"
+    "PolynomCopyConstructorDoubleCase2\0"
+    "constructorPolynomMatrixNumeratorDenominatorDoubleCase1\0"
+    "constructorPolynomMatrixNumeratorDenominatorDoubleCase2\0"
+    "constructorPolynomVoidDouble\0"
+    "destructorPolynomDoubleCase1\0"
+    "destructorPolynomDoubleCase2\0"
+    "getVarDoubleCase1\0getVarDoubleCase2\0"
+    "getVarDoubleCase3\0getVarDoubleCase4\0"
+    "changeVarDouble\0getNumSizeDouble\0"
+    "getDenSizeDouble\0getNumDouble\0"
+    "getDenDouble\0setNumDoubleCase1\0"
+    "setNumDoubleCase2\0setDenDoubleCase1\0"
+    "setDenDoubleCase2\0assignOperatorDouble\0"
+    "copyAssignOperatorDouble\0"
+    "assignOperatorOtherTypeDouble\0"
+    "operatorSumAccumulatorScalarDoubleCase1\0"
+    "operatorSumAccumulatorScalarDoubleCase2\0"
+    "operatorSumAccumulatorScalarDoubleCase3\0"
+    "operatorSumAccumulatorScalarDoubleCase4\0"
+    "operatorSumAccumulatorScalarDoubleCase5\0"
+    "operatorSumAccumulatorPolynomDoubleCase1\0"
+    "operatorSumAccumulatorPolynomDoubleCase2\0"
+    "operatorSubtractionAccumulatorScalarDoubleCase1\0"
+    "operatorSubtractionAccumulatorScalarDoubleCase2\0"
+    "operatorSubtractionAccumulatorScalarDoubleCase3\0"
+    "operatorSubtractionAccumulatorScalarDoubleCase4\0"
+    "operatorSubtractionAccumulatorScalarDoubleCase5\0"
+    "operatorSubtractionAccumulatorPolynomDoubleCase1\0"
+    "operatorSubtractionAccumulatorPolynomDoubleCase2\0"
+    "operatorMultiplicationAccumulatorScalarDoubleCase1\0"
+    "operatorMultiplicationAccumulatorScalarDoubleCase2\0"
+    "operatorMultiplicationAccumulatorPolynomDoubleCase1\0"
+    "operatorMultiplicationAccumulatorPolynomDoubleCase2\0"
+    "operatorDivisionAccumulatorScalarDoubleCase1\0"
+    "operatorDivisionAccumulatorScalarDoubleCase2\0"
+    "operatorDivisionAccumulatorPolynomDoubleCase1\0"
+    "operatorDivisionAccumulatorPolynomDoubleCase2\0"
+    "operatorDivisionAccumulatorPolynomDoubleCase3\0"
+    "operatorPotentiationAccumulatorScalarDoubleCase1\0"
+    "operatorPotentiationAccumulatorScalarDoubleCase2\0"
+    "operatorPotentiationAccumulatorScalarDoubleCase3\0"
+    "operatorPotentiationAccumulatorScalarDoubleCase4\0"
+    "operatorSumScalarDoubleCase1\0"
+    "operatorSumScalarDoubleCase2\0"
+    "operatorSumScalarDoubleCase3\0"
+    "operatorSumScalarDoubleCase4\0"
+    "operatorSumScalarDoubleCase5\0"
+    "operatorSumScalarDoubleCase6\0"
+    "operatorSumScalarDoubleCase7\0"
+    "operatorSumScalarDoubleCase8\0"
+    "operatorSumScalarDoubleCase9\0"
+    "operatorSumScalarDoubleCase10\0"
+    "operatorSumPolynomDoubleCase1\0"
+    "operatorSumPolynomDoubleCase2\0"
+    "operatorSubtractionScalarDoubleCase1\0"
+    "operatorSubtractionScalarDoubleCase2\0"
+    "operatorSubtractionScalarDoubleCase3\0"
+    "operatorSubtractionScalarDoubleCase4\0"
+    "operatorSubtractionScalarDoubleCase5\0"
+    "operatorSubtractionScalarDoubleCase6\0"
+    "operatorSubtractionScalarDoubleCase7\0"
+    "operatorSubtractionScalarDoubleCase8\0"
+    "operatorSubtractionScalarDoubleCase9\0"
+    "operatorSubtractionScalarDoubleCase10\0"
+    "operatorSubtractionPolynomDoubleCase1\0"
+    "operatorSubtractionPolynomDoubleCase2\0"
+    "operatorMultiplicationScalarDoubleCase1\0"
+    "operatorMultiplicationScalarDoubleCase2\0"
+    "operatorMultiplicationScalarDoubleCase3\0"
+    "operatorMultiplicationScalarDoubleCase4\0"
+    "operatorMultiplicationPolynomDoubleCase1\0"
+    "operatorMultiplicationPolynomDoubleCase2\0"
+    "operatorDivisionScalarDoubleCase1\0"
+    "operatorDivisionScalarDoubleCase2\0"
+    "operatorDivisionScalarDoubleCase3\0"
+    "operatorDivisionScalarDoubleCase4\0"
+    "operatorDivisionPolynomDoubleCase1\0"
+    "operatorDivisionPolynomDoubleCase2\0"
+    "operatorPotentiationScalarDoubleCase1\0"
+    "operatorPotentiationScalarDoubleCase2\0"
+    "operatorPotentiationScalarDoubleCase3\0"
+    "operatorPotentiationScalarDoubleCase4\0"
+    "equalityOperator\0operatorDivisionMatrixPolynom\0"
+    "minusOperatorDouble\0derivateCase1\0"
+    "derivateCase2\0derivateCase3\0derivateCase4\0"
+    "derivateCase5\0printSmallPolynomCase1\0"
+    "printSmallPolynomCase2\0printSmallPolynomCase3\0"
+    "printSmallPolynomCase4\0printSmallPolynomCase5\0"
+    "printSmallPolynomCase6\0printSmallPolynomCase7\0"
+    "printSmallPolynomCase8\0printSmallPolynomCase9\0"
+    "printSmallPolynomCase10\0printSmallPolynomCase11\0"
+    "printSmallPolynomCase12\0printSmallPolynomCase13\0"
+    "printSmallPolynomCase14\0printSmallPolynomCase15\0"
+    "printSmallPolynomCase16\0printSmallPolynomCase17\0"
+    "printSmallPolynomCase18\0printSmallPolynomCase19\0"
+    "printSmallPolynomCase20\0printSmallPolynomCase21\0"
+    "printSmallPolynomCase22\0printSmallPolynomCase23\0"
+    "printSmallPolynomCase24\0printSmallPolynomCase25\0"
+    "printPolynomCase1\0printPolynomCase2\0"
+    "printPolynomCase3\0vefDen\0sumPoly\0"
+    "multPolyPointer\0multPolyMatrix\0simplify\0"
+    "rootscase1\0rootscase2\0rootscase3\0"
+    "rootscase4\0rootscase5\0rootscase6\0"
+    "rootscase7\0rootscase8\0rootscase9\0"
+    "root2Poly\0rootsContainRoot"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_PolynomDoubleTest[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     146,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  744,    2, 0x08 /* Private */,
+       3,    0,  745,    2, 0x08 /* Private */,
+       4,    0,  746,    2, 0x08 /* Private */,
+       5,    0,  747,    2, 0x08 /* Private */,
+       6,    0,  748,    2, 0x08 /* Private */,
+       7,    0,  749,    2, 0x08 /* Private */,
+       8,    0,  750,    2, 0x08 /* Private */,
+       9,    0,  751,    2, 0x08 /* Private */,
+      10,    0,  752,    2, 0x08 /* Private */,
+      11,    0,  753,    2, 0x08 /* Private */,
+      12,    0,  754,    2, 0x08 /* Private */,
+      13,    0,  755,    2, 0x08 /* Private */,
+      14,    0,  756,    2, 0x08 /* Private */,
+      15,    0,  757,    2, 0x08 /* Private */,
+      16,    0,  758,    2, 0x08 /* Private */,
+      17,    0,  759,    2, 0x08 /* Private */,
+      18,    0,  760,    2, 0x08 /* Private */,
+      19,    0,  761,    2, 0x08 /* Private */,
+      20,    0,  762,    2, 0x08 /* Private */,
+      21,    0,  763,    2, 0x08 /* Private */,
+      22,    0,  764,    2, 0x08 /* Private */,
+      23,    0,  765,    2, 0x08 /* Private */,
+      24,    0,  766,    2, 0x08 /* Private */,
+      25,    0,  767,    2, 0x08 /* Private */,
+      26,    0,  768,    2, 0x08 /* Private */,
+      27,    0,  769,    2, 0x08 /* Private */,
+      28,    0,  770,    2, 0x08 /* Private */,
+      29,    0,  771,    2, 0x08 /* Private */,
+      30,    0,  772,    2, 0x08 /* Private */,
+      31,    0,  773,    2, 0x08 /* Private */,
+      32,    0,  774,    2, 0x08 /* Private */,
+      33,    0,  775,    2, 0x08 /* Private */,
+      34,    0,  776,    2, 0x08 /* Private */,
+      35,    0,  777,    2, 0x08 /* Private */,
+      36,    0,  778,    2, 0x08 /* Private */,
+      37,    0,  779,    2, 0x08 /* Private */,
+      38,    0,  780,    2, 0x08 /* Private */,
+      39,    0,  781,    2, 0x08 /* Private */,
+      40,    0,  782,    2, 0x08 /* Private */,
+      41,    0,  783,    2, 0x08 /* Private */,
+      42,    0,  784,    2, 0x08 /* Private */,
+      43,    0,  785,    2, 0x08 /* Private */,
+      44,    0,  786,    2, 0x08 /* Private */,
+      45,    0,  787,    2, 0x08 /* Private */,
+      46,    0,  788,    2, 0x08 /* Private */,
+      47,    0,  789,    2, 0x08 /* Private */,
+      48,    0,  790,    2, 0x08 /* Private */,
+      49,    0,  791,    2, 0x08 /* Private */,
+      50,    0,  792,    2, 0x08 /* Private */,
+      51,    0,  793,    2, 0x08 /* Private */,
+      52,    0,  794,    2, 0x08 /* Private */,
+      53,    0,  795,    2, 0x08 /* Private */,
+      54,    0,  796,    2, 0x08 /* Private */,
+      55,    0,  797,    2, 0x08 /* Private */,
+      56,    0,  798,    2, 0x08 /* Private */,
+      57,    0,  799,    2, 0x08 /* Private */,
+      58,    0,  800,    2, 0x08 /* Private */,
+      59,    0,  801,    2, 0x08 /* Private */,
+      60,    0,  802,    2, 0x08 /* Private */,
+      61,    0,  803,    2, 0x08 /* Private */,
+      62,    0,  804,    2, 0x08 /* Private */,
+      63,    0,  805,    2, 0x08 /* Private */,
+      64,    0,  806,    2, 0x08 /* Private */,
+      65,    0,  807,    2, 0x08 /* Private */,
+      66,    0,  808,    2, 0x08 /* Private */,
+      67,    0,  809,    2, 0x08 /* Private */,
+      68,    0,  810,    2, 0x08 /* Private */,
+      69,    0,  811,    2, 0x08 /* Private */,
+      70,    0,  812,    2, 0x08 /* Private */,
+      71,    0,  813,    2, 0x08 /* Private */,
+      72,    0,  814,    2, 0x08 /* Private */,
+      73,    0,  815,    2, 0x08 /* Private */,
+      74,    0,  816,    2, 0x08 /* Private */,
+      75,    0,  817,    2, 0x08 /* Private */,
+      76,    0,  818,    2, 0x08 /* Private */,
+      77,    0,  819,    2, 0x08 /* Private */,
+      78,    0,  820,    2, 0x08 /* Private */,
+      79,    0,  821,    2, 0x08 /* Private */,
+      80,    0,  822,    2, 0x08 /* Private */,
+      81,    0,  823,    2, 0x08 /* Private */,
+      82,    0,  824,    2, 0x08 /* Private */,
+      83,    0,  825,    2, 0x08 /* Private */,
+      84,    0,  826,    2, 0x08 /* Private */,
+      85,    0,  827,    2, 0x08 /* Private */,
+      86,    0,  828,    2, 0x08 /* Private */,
+      87,    0,  829,    2, 0x08 /* Private */,
+      88,    0,  830,    2, 0x08 /* Private */,
+      89,    0,  831,    2, 0x08 /* Private */,
+      90,    0,  832,    2, 0x08 /* Private */,
+      91,    0,  833,    2, 0x08 /* Private */,
+      92,    0,  834,    2, 0x08 /* Private */,
+      93,    0,  835,    2, 0x08 /* Private */,
+      94,    0,  836,    2, 0x08 /* Private */,
+      95,    0,  837,    2, 0x08 /* Private */,
+      96,    0,  838,    2, 0x08 /* Private */,
+      97,    0,  839,    2, 0x08 /* Private */,
+      98,    0,  840,    2, 0x08 /* Private */,
+      99,    0,  841,    2, 0x08 /* Private */,
+     100,    0,  842,    2, 0x08 /* Private */,
+     101,    0,  843,    2, 0x08 /* Private */,
+     102,    0,  844,    2, 0x08 /* Private */,
+     103,    0,  845,    2, 0x08 /* Private */,
+     104,    0,  846,    2, 0x08 /* Private */,
+     105,    0,  847,    2, 0x08 /* Private */,
+     106,    0,  848,    2, 0x08 /* Private */,
+     107,    0,  849,    2, 0x08 /* Private */,
+     108,    0,  850,    2, 0x08 /* Private */,
+     109,    0,  851,    2, 0x08 /* Private */,
+     110,    0,  852,    2, 0x08 /* Private */,
+     111,    0,  853,    2, 0x08 /* Private */,
+     112,    0,  854,    2, 0x08 /* Private */,
+     113,    0,  855,    2, 0x08 /* Private */,
+     114,    0,  856,    2, 0x08 /* Private */,
+     115,    0,  857,    2, 0x08 /* Private */,
+     116,    0,  858,    2, 0x08 /* Private */,
+     117,    0,  859,    2, 0x08 /* Private */,
+     118,    0,  860,    2, 0x08 /* Private */,
+     119,    0,  861,    2, 0x08 /* Private */,
+     120,    0,  862,    2, 0x08 /* Private */,
+     121,    0,  863,    2, 0x08 /* Private */,
+     122,    0,  864,    2, 0x08 /* Private */,
+     123,    0,  865,    2, 0x08 /* Private */,
+     124,    0,  866,    2, 0x08 /* Private */,
+     125,    0,  867,    2, 0x08 /* Private */,
+     126,    0,  868,    2, 0x08 /* Private */,
+     127,    0,  869,    2, 0x08 /* Private */,
+     128,    0,  870,    2, 0x08 /* Private */,
+     129,    0,  871,    2, 0x08 /* Private */,
+     130,    0,  872,    2, 0x08 /* Private */,
+     131,    0,  873,    2, 0x08 /* Private */,
+     132,    0,  874,    2, 0x08 /* Private */,
+     133,    0,  875,    2, 0x08 /* Private */,
+     134,    0,  876,    2, 0x08 /* Private */,
+     135,    0,  877,    2, 0x08 /* Private */,
+     136,    0,  878,    2, 0x08 /* Private */,
+     137,    0,  879,    2, 0x08 /* Private */,
+     138,    0,  880,    2, 0x08 /* Private */,
+     139,    0,  881,    2, 0x08 /* Private */,
+     140,    0,  882,    2, 0x08 /* Private */,
+     141,    0,  883,    2, 0x08 /* Private */,
+     142,    0,  884,    2, 0x08 /* Private */,
+     143,    0,  885,    2, 0x08 /* Private */,
+     144,    0,  886,    2, 0x08 /* Private */,
+     145,    0,  887,    2, 0x08 /* Private */,
+     146,    0,  888,    2, 0x08 /* Private */,
+     147,    0,  889,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void PolynomDoubleTest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        PolynomDoubleTest *_t = static_cast<PolynomDoubleTest *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->constructorPolynomEscalarDouble(); break;
+        case 1: _t->constructorPolynomMatrixNumeratorDoubleCase1(); break;
+        case 2: _t->constructorPolynomMatrixNumeratorDoubleCase2(); break;
+        case 3: _t->constructorPolynomMatrixNumeratorDoubleCase3(); break;
+        case 4: _t->PolynomCopyConstructorDoubleCase1(); break;
+        case 5: _t->PolynomCopyConstructorDoubleCase2(); break;
+        case 6: _t->constructorPolynomMatrixNumeratorDenominatorDoubleCase1(); break;
+        case 7: _t->constructorPolynomMatrixNumeratorDenominatorDoubleCase2(); break;
+        case 8: _t->constructorPolynomVoidDouble(); break;
+        case 9: _t->destructorPolynomDoubleCase1(); break;
+        case 10: _t->destructorPolynomDoubleCase2(); break;
+        case 11: _t->getVarDoubleCase1(); break;
+        case 12: _t->getVarDoubleCase2(); break;
+        case 13: _t->getVarDoubleCase3(); break;
+        case 14: _t->getVarDoubleCase4(); break;
+        case 15: _t->changeVarDouble(); break;
+        case 16: _t->getNumSizeDouble(); break;
+        case 17: _t->getDenSizeDouble(); break;
+        case 18: _t->getNumDouble(); break;
+        case 19: _t->getDenDouble(); break;
+        case 20: _t->setNumDoubleCase1(); break;
+        case 21: _t->setNumDoubleCase2(); break;
+        case 22: _t->setDenDoubleCase1(); break;
+        case 23: _t->setDenDoubleCase2(); break;
+        case 24: _t->assignOperatorDouble(); break;
+        case 25: _t->copyAssignOperatorDouble(); break;
+        case 26: _t->assignOperatorOtherTypeDouble(); break;
+        case 27: _t->operatorSumAccumulatorScalarDoubleCase1(); break;
+        case 28: _t->operatorSumAccumulatorScalarDoubleCase2(); break;
+        case 29: _t->operatorSumAccumulatorScalarDoubleCase3(); break;
+        case 30: _t->operatorSumAccumulatorScalarDoubleCase4(); break;
+        case 31: _t->operatorSumAccumulatorScalarDoubleCase5(); break;
+        case 32: _t->operatorSumAccumulatorPolynomDoubleCase1(); break;
+        case 33: _t->operatorSumAccumulatorPolynomDoubleCase2(); break;
+        case 34: _t->operatorSubtractionAccumulatorScalarDoubleCase1(); break;
+        case 35: _t->operatorSubtractionAccumulatorScalarDoubleCase2(); break;
+        case 36: _t->operatorSubtractionAccumulatorScalarDoubleCase3(); break;
+        case 37: _t->operatorSubtractionAccumulatorScalarDoubleCase4(); break;
+        case 38: _t->operatorSubtractionAccumulatorScalarDoubleCase5(); break;
+        case 39: _t->operatorSubtractionAccumulatorPolynomDoubleCase1(); break;
+        case 40: _t->operatorSubtractionAccumulatorPolynomDoubleCase2(); break;
+        case 41: _t->operatorMultiplicationAccumulatorScalarDoubleCase1(); break;
+        case 42: _t->operatorMultiplicationAccumulatorScalarDoubleCase2(); break;
+        case 43: _t->operatorMultiplicationAccumulatorPolynomDoubleCase1(); break;
+        case 44: _t->operatorMultiplicationAccumulatorPolynomDoubleCase2(); break;
+        case 45: _t->operatorDivisionAccumulatorScalarDoubleCase1(); break;
+        case 46: _t->operatorDivisionAccumulatorScalarDoubleCase2(); break;
+        case 47: _t->operatorDivisionAccumulatorPolynomDoubleCase1(); break;
+        case 48: _t->operatorDivisionAccumulatorPolynomDoubleCase2(); break;
+        case 49: _t->operatorDivisionAccumulatorPolynomDoubleCase3(); break;
+        case 50: _t->operatorPotentiationAccumulatorScalarDoubleCase1(); break;
+        case 51: _t->operatorPotentiationAccumulatorScalarDoubleCase2(); break;
+        case 52: _t->operatorPotentiationAccumulatorScalarDoubleCase3(); break;
+        case 53: _t->operatorPotentiationAccumulatorScalarDoubleCase4(); break;
+        case 54: _t->operatorSumScalarDoubleCase1(); break;
+        case 55: _t->operatorSumScalarDoubleCase2(); break;
+        case 56: _t->operatorSumScalarDoubleCase3(); break;
+        case 57: _t->operatorSumScalarDoubleCase4(); break;
+        case 58: _t->operatorSumScalarDoubleCase5(); break;
+        case 59: _t->operatorSumScalarDoubleCase6(); break;
+        case 60: _t->operatorSumScalarDoubleCase7(); break;
+        case 61: _t->operatorSumScalarDoubleCase8(); break;
+        case 62: _t->operatorSumScalarDoubleCase9(); break;
+        case 63: _t->operatorSumScalarDoubleCase10(); break;
+        case 64: _t->operatorSumPolynomDoubleCase1(); break;
+        case 65: _t->operatorSumPolynomDoubleCase2(); break;
+        case 66: _t->operatorSubtractionScalarDoubleCase1(); break;
+        case 67: _t->operatorSubtractionScalarDoubleCase2(); break;
+        case 68: _t->operatorSubtractionScalarDoubleCase3(); break;
+        case 69: _t->operatorSubtractionScalarDoubleCase4(); break;
+        case 70: _t->operatorSubtractionScalarDoubleCase5(); break;
+        case 71: _t->operatorSubtractionScalarDoubleCase6(); break;
+        case 72: _t->operatorSubtractionScalarDoubleCase7(); break;
+        case 73: _t->operatorSubtractionScalarDoubleCase8(); break;
+        case 74: _t->operatorSubtractionScalarDoubleCase9(); break;
+        case 75: _t->operatorSubtractionScalarDoubleCase10(); break;
+        case 76: _t->operatorSubtractionPolynomDoubleCase1(); break;
+        case 77: _t->operatorSubtractionPolynomDoubleCase2(); break;
+        case 78: _t->operatorMultiplicationScalarDoubleCase1(); break;
+        case 79: _t->operatorMultiplicationScalarDoubleCase2(); break;
+        case 80: _t->operatorMultiplicationScalarDoubleCase3(); break;
+        case 81: _t->operatorMultiplicationScalarDoubleCase4(); break;
+        case 82: _t->operatorMultiplicationPolynomDoubleCase1(); break;
+        case 83: _t->operatorMultiplicationPolynomDoubleCase2(); break;
+        case 84: _t->operatorDivisionScalarDoubleCase1(); break;
+        case 85: _t->operatorDivisionScalarDoubleCase2(); break;
+        case 86: _t->operatorDivisionScalarDoubleCase3(); break;
+        case 87: _t->operatorDivisionScalarDoubleCase4(); break;
+        case 88: _t->operatorDivisionPolynomDoubleCase1(); break;
+        case 89: _t->operatorDivisionPolynomDoubleCase2(); break;
+        case 90: _t->operatorPotentiationScalarDoubleCase1(); break;
+        case 91: _t->operatorPotentiationScalarDoubleCase2(); break;
+        case 92: _t->operatorPotentiationScalarDoubleCase3(); break;
+        case 93: _t->operatorPotentiationScalarDoubleCase4(); break;
+        case 94: _t->equalityOperator(); break;
+        case 95: _t->operatorDivisionMatrixPolynom(); break;
+        case 96: _t->minusOperatorDouble(); break;
+        case 97: _t->derivateCase1(); break;
+        case 98: _t->derivateCase2(); break;
+        case 99: _t->derivateCase3(); break;
+        case 100: _t->derivateCase4(); break;
+        case 101: _t->derivateCase5(); break;
+        case 102: _t->printSmallPolynomCase1(); break;
+        case 103: _t->printSmallPolynomCase2(); break;
+        case 104: _t->printSmallPolynomCase3(); break;
+        case 105: _t->printSmallPolynomCase4(); break;
+        case 106: _t->printSmallPolynomCase5(); break;
+        case 107: _t->printSmallPolynomCase6(); break;
+        case 108: _t->printSmallPolynomCase7(); break;
+        case 109: _t->printSmallPolynomCase8(); break;
+        case 110: _t->printSmallPolynomCase9(); break;
+        case 111: _t->printSmallPolynomCase10(); break;
+        case 112: _t->printSmallPolynomCase11(); break;
+        case 113: _t->printSmallPolynomCase12(); break;
+        case 114: _t->printSmallPolynomCase13(); break;
+        case 115: _t->printSmallPolynomCase14(); break;
+        case 116: _t->printSmallPolynomCase15(); break;
+        case 117: _t->printSmallPolynomCase16(); break;
+        case 118: _t->printSmallPolynomCase17(); break;
+        case 119: _t->printSmallPolynomCase18(); break;
+        case 120: _t->printSmallPolynomCase19(); break;
+        case 121: _t->printSmallPolynomCase20(); break;
+        case 122: _t->printSmallPolynomCase21(); break;
+        case 123: _t->printSmallPolynomCase22(); break;
+        case 124: _t->printSmallPolynomCase23(); break;
+        case 125: _t->printSmallPolynomCase24(); break;
+        case 126: _t->printSmallPolynomCase25(); break;
+        case 127: _t->printPolynomCase1(); break;
+        case 128: _t->printPolynomCase2(); break;
+        case 129: _t->printPolynomCase3(); break;
+        case 130: _t->vefDen(); break;
+        case 131: _t->sumPoly(); break;
+        case 132: _t->multPolyPointer(); break;
+        case 133: _t->multPolyMatrix(); break;
+        case 134: _t->simplify(); break;
+        case 135: _t->rootscase1(); break;
+        case 136: _t->rootscase2(); break;
+        case 137: _t->rootscase3(); break;
+        case 138: _t->rootscase4(); break;
+        case 139: _t->rootscase5(); break;
+        case 140: _t->rootscase6(); break;
+        case 141: _t->rootscase7(); break;
+        case 142: _t->rootscase8(); break;
+        case 143: _t->rootscase9(); break;
+        case 144: _t->root2Poly(); break;
+        case 145: _t->rootsContainRoot(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject PolynomDoubleTest::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_PolynomDoubleTest.data,
+      qt_meta_data_PolynomDoubleTest,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+};
+
+
+const QMetaObject *PolynomDoubleTest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *PolynomDoubleTest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_PolynomDoubleTest.stringdata0))
+        return static_cast<void*>(const_cast< PolynomDoubleTest*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int PolynomDoubleTest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 146)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 146;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 146)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 146;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

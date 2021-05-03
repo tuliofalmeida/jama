@@ -1,0 +1,196 @@
+#include <QString>
+#include <QtTest>
+
+#define testPolynom
+#define testModel
+#include "../../../headers/primitiveLibs/LinAlg/matrix.h"
+#include "../../../headers/primitiveLibs/polynom.h"
+#include "../../../headers/modelLibs/transferfunction.h"
+#include "../../../headers/modelLibs/arx.h"
+#include "../../../headers/modelLibs/conversions.h"
+
+class ConversionsTest : public QObject
+{
+    Q_OBJECT
+
+public:
+    ConversionsTest(){}
+
+private Q_SLOTS:
+    void ss2tf();
+    void ss2tfSISO();
+    void arx2tf();
+    void arx2SS();
+    void tf2ss();
+    void tf2ssSISO();
+    void tf2arxSISO();
+    void c2dCase1();
+    void c2dCase2();
+    void d2c();
+    void integrativeModel();
+    void predictionModel();
+};
+
+void ConversionsTest::ss2tf()
+{
+    LinAlg::Matrix<double> A = "0,1;-1,-2", B = "0,1;1,0", C = "1,0", D = 0.0;
+    ModelHandler::StateSpace<double> SS(A,B,C,D);
+    ModelHandler::TransferFunction<double> tf;
+
+    QBENCHMARK {
+        tf = ModelHandler::ss2tf(SS);
+    }
+
+    std::string str; str << tf;
+    std::cout << str << std::endl;
+}
+
+void ConversionsTest::ss2tfSISO()
+{
+    LinAlg::Matrix<double> A = "0,1;-1,-2", B = "0;1", C = "1,0", D = 0.0;
+    ModelHandler::StateSpace<double> SS(A,B,C,D);
+    ModelHandler::TransferFunction<double> tf;
+
+    QBENCHMARK {
+        tf = ModelHandler::ss2tfSISO(SS);
+    }
+
+    std::string str; str << tf;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::arx2tf()
+{
+    ModelHandler::ARX<double> arx(2,2,0,2,1,0.1);
+    arx.setModelCoef("-1.810;0.819;0.094;0.088;0.094;0.088");
+    ModelHandler::TransferFunction<double> tf;
+    QBENCHMARK {
+        tf = ModelHandler::arx2tf(arx);
+    }
+    std::string str; str << tf;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::arx2SS()
+{
+    ModelHandler::ARX<double> arx(2,2,0,2,1,0.1);
+    arx.setModelCoef("-1.810;0.819;0.094;0.088;0.094;0.088");
+    ModelHandler::StateSpace<double> SS;
+    QBENCHMARK {
+        SS = ModelHandler::arx2SS(arx);
+    }
+    std::string str; str << SS;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::tf2ss()
+{
+    ModelHandler::StateSpace<double> SS;
+    ModelHandler::TransferFunction<double> tf(1,2);
+    tf(1,1) = PolynomHandler::Polynom<double>(1,"1,2,1");
+    tf(1,2) = PolynomHandler::Polynom<double>("1,2","1,2,1");
+    QBENCHMARK {
+        SS = ModelHandler::tf2ss(tf);
+    }
+
+    std::string str; str << SS;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::tf2ssSISO()
+{
+    ModelHandler::StateSpace<double> SS;
+    ModelHandler::TransferFunction<double> tf(1,1);
+    tf(1,1) = PolynomHandler::Polynom<double>(1,"1,2,1");
+    QBENCHMARK {
+        SS = ModelHandler::tf2ss(tf);
+    }
+
+    std::string str; str << SS;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::tf2arxSISO()
+{
+    ModelHandler::TransferFunction<double> tf(1,1);
+    tf(1,1) = PolynomHandler::Polynom<double>(1,"1,2,1");
+    ModelHandler::ARX<double> arx = ModelHandler::tf2arxSISO(tf,0.1);
+    QBENCHMARK {
+        ModelHandler::ARX<double> arx = ModelHandler::tf2arxSISO(tf,0.1);
+    }
+
+    std::string str; str << arx;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::c2dCase1()
+{
+    ModelHandler::TransferFunction<double> tf(1,1),tfd(1,1);
+    tf(1,1) = PolynomHandler::Polynom<double>(1,"1,2,1");
+    QBENCHMARK {
+        tfd = ModelHandler::c2d(tf,0.1);
+    }
+
+    std::string str; str << tfd;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::c2dCase2()
+{
+    LinAlg::Matrix<double> A = "0,1;-1,-2", B = "0,1;1,0", C = "1,0", D = 0.0;
+    ModelHandler::StateSpace<double> SS(A,B,C,D),SSd;
+    SS.setNDiscretizationValue(2);
+
+    QBENCHMARK {
+        SSd = ModelHandler::c2d(SS,0.1);
+    }
+
+    std::string str; str << SSd;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::d2c()
+{
+    LinAlg::Matrix<double> A = "0.998,0.095;-0.095,0.807", B = "0.003,0.100;0.095,-0.002", C = "1,0", D = 0.0;
+    ModelHandler::StateSpace<double> SS,SSd(A,B,C,D,0.1);
+
+    QBENCHMARK {
+        SS = ModelHandler::d2c(SSd);
+    }
+
+    std::string str; str << SS;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::integrativeModel()
+{
+    LinAlg::Matrix<double> A = "0,1;-1,-2", B = "0;1", C = "1,0", D = 0.0;
+    ModelHandler::StateSpace<double> SS(A,B,C,D), SSI;
+//    SS = ModelHandler::c2d(SS,0.1);
+
+    QBENCHMARK {
+        SSI = ModelHandler::integrativeModel(SS);
+    }
+
+    std::string str; str << SSI;
+//    std::cout << str << std::endl;
+}
+
+void ConversionsTest::predictionModel()
+{
+    LinAlg::Matrix<double> A = "0,1;-1,-2", B = "0;1", C = "1,0", D = 0.0;
+    ModelHandler::StateSpace<double> SS(A,B,C,D), SSI, SSP;
+    SS = ModelHandler::c2d(SS,0.1);
+    SSI = ModelHandler::integrativeModel(SS);
+
+    QBENCHMARK {
+        SSP = ModelHandler::predictionModel(SSI,0,2,2);
+    }
+
+    std::string str; str << SSP;
+//    std::cout << str << std::endl;
+}
+
+QTEST_APPLESS_MAIN(ConversionsTest)
+
+#include "tst_conversionstest.moc"

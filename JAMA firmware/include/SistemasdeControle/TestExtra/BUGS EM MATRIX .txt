@@ -1,0 +1,22 @@
+falta add ao git a função polydiv em linalg.hpp e em linalg.h
+
+BUGS EM MATRIX 
+
+MATRIX MATRIX <UsedType>::eigenvalues() corrigido e add ao git
+
+void operador Matrix<UsedType>:: operador ()(int row,int col,USerTYpe *value) não existe
+
+MMAtrix<***>::operador*(matriz<UsedType>mat1) não funciona!!!
+
+MMAtrix<***>::operador*(UsedType a) não funciona!!!
+
+bool LinAlg::Matrix<Type>::CheckDimensions (const LinAlg::Matrix<OtherMatrixType>& rhs, unsigned eradoration) mudar eradoration para operation CORRIGIDO
+
+Matrix Matrix< UsedType >::operator~() //Resultado errado na documentação	
+
+EM linalg.hpp Type LinAlg::CaracteristicPolynom (const LinAlg::Matrix<Type>& mat) implementado e add ao git 
+
+void Matrix< UsedType >::randU	(int row,int col )//não implementado
+
+		
+

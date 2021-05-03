@@ -1,0 +1,36 @@
+#include <iostream>
+#include <time.h>
+#include "esp_system.h"
+#include "rom/ets_sys.h"
+#include "driver/ledc.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/timer.h"
+#include "SistemasdeControle/headers/primitiveLibs/LinAlg/matrix.h"
+#include "SistemasdeControle/embeddedTools/signalAnalysis/systemLoop.h"
+#include "SistemasdeControle/embeddedTools/communicationLibs/wifi/wifista.h"
+#include "SistemasdeControle/embeddedTools/communicationLibs/mpu6050.hpp"
+#include "SistemasdeControle/embeddedTools/communicationLibs/kalmanfilter.hpp"
+
+uint8_t modPin[4] = {2,4,5,18},
+        levelPin[4]   = {19,21,22,23};
+Devices::fes4channels dispositivo(levelPin,modPin,4);
+
+bool flag = false;
+Communication::WifiSTA wifi;
+MPU6050 sensor;
+
+static void wifiCallback(Communication::WifiSTA &wifi1){   
+    LinAlg::Matrix<double> code = wifi1.getData();
+	std::cout << code;
+    for(uint8_t i = 0; i < 4; ++i)
+        dispositivo.fes[i].setPowerLevel(code(0,i)); 
+    std::stringstream str; str << sensor.getAccX();
+    wifi1 << str.str().c_str();
+}
+
+extern "C" void app_main(){ 
+    dispositivo.startLoop();  
+    wifi.connect();
+    wifi >> wifiCallback; 
+}

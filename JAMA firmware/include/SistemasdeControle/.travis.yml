@@ -1,0 +1,49 @@
+language: c++
+sudo: required
+dist: trusty
+
+before_install:
+  - sudo add-apt-repository --yes ppa:beineri/opt-qt58-trusty
+  - sudo apt-get update -qq
+  - sudo apt-get install libudunits2-dev lcov python-yaml
+  - sudo pip install cpp-coveralls
+
+install:
+  - sudo apt-get -y install qt58[QTPACKAGE]
+
+script:
+  - source /opt/qt58/bin/qt58-env.sh
+  - qmake "CONFIG+=test" Testes/primitiveLibs/LinAlg/matrix/matrix.pro
+  - make
+  - ./tst_matrixtest
+  - qmake "CONFIG+=test" Testes/primitiveLibs/LinAlg/MatrixLongDouble/MatrixLongDouble.pro
+  - make
+  - ./tst_matrixlongdoubletest
+  - qmake "CONFIG+=test" Testes/primitiveLibs/polynomDouble/polynomDouble.pro
+  - make
+  - ./tst_polynomdoubletest
+  - qmake "CONFIG+=test" Testes/primitiveLibs/LinAlg/LinAlg/LinAlg.pro
+  - make
+  - ./tst_linalgtest
+  - qmake "CONFIG+=test" Testes/modelLibs/transferFunction/transferFunction.pro
+  - make
+  - ./tst_transferfunctiontest
+  - qmake "CONFIG+=test" Testes/modelLibs/stateSpaceDouble/stateSpaceDouble.pro
+  - make
+  - ./tst_statespacedoubletest
+  - qmake "CONFIG+=test" Testes/modelLibs/ArxDouble/ArxDouble.pro
+  - make
+  - ./tst_arxdoubletest
+  - qmake "CONFIG+=test" Testes/modelLibs/conversions/conversions.pro
+  - make
+  - ./tst_conversionstest
+  - qmake "CONFIG+=test" Testes/controlLibs/PIDTest/PIDTest.pro
+  - make
+  - ./tst_pidtesttest
+  - qmake "CONFIG+=test" Testes/controlLibs/PredictiveTest/PredictiveTest.pro
+  - make
+  - ./tst_predictivetesttest
+
+
+after_success:
+- cpp-coveralls  

@@ -1,0 +1,10 @@
+main.cpp
+main.cpp
+untitled1/untitled1.pro
+untitled1/untitled1.pro.user
+*.user
+*.o
+*.Release
+*.Debug
+build-untitled1-Desktop_Qt_5_4_2_MinGW_32bit-Debug/Makefile
+*.exe
