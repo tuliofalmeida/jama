@@ -41,7 +41,7 @@ This section covers how to build the proposed hardware.
   
 ### 3D printed case
 
-The proposed circuit was built in a [3D Case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case) available openly. The file has 2 models, the model shown on the right of the image was designed to be used with small 3.7 V batteries and the other for large batteries. The holes were not made in the model in order to make it easy to adapt (sensor, battery or ESP model), for use in this project the holes can be made by hand.
+The proposed circuit was built in a [3D Case](https://github.com/tuliofalmeida/jama/tree/main/3D%20case) available openly. The file has 2 models, the model shown on the right of the image was designed to be used with small 3.7 V batteries and the other for large batteries. The holes were not made in the model in order to make it easy to adapt (sensor, battery or ESP model), for use in this project the holes can be made by hand. 3D models made in partnership with [Iago "Raj" da Silva](https://github.com/iagofelipeeee).
 
 <p align="center">
   <img width="640" height="480" src="https://github.com/tuliofalmeida/jama/blob/main/3D%20case/models.png">
