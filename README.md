@@ -32,7 +32,7 @@ This section contains information for building JAMA
 
 This section covers how to build the proposed hardware.
 
-## Materials:
+## Components:
 - [ESP32-DevKit-C](https://www.espressif.com/en/products/socs/esp32)
 - GY-80
   - [L3G4200D](http://www.robotpark.com/image/data/PRO/91459/CD00265057.pdf)
