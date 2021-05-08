@@ -38,6 +38,9 @@ This section covers how to build the proposed hardware.
   - [L3G4200D](http://www.robotpark.com/image/data/PRO/91459/CD00265057.pdf)
   - [ADXL345](http://www.robotpark.com/image/data/PRO/91459/ADXL345.pdf)
   - [HMC5883L](http://www.robotpark.com/image/data/PRO/91459/HMC5883L_3-Axis_Digital_Compass_IC.pdf)
+- 2 batteries 3.7V
+- 
+The total cost of the components is approximately $ 30
   
 ### 3D printed case
 
