@@ -120,7 +120,7 @@ Step by step:
 
 # JAMA Device
 
-Here we present the JAMA device built in a way to facilitate tests and updates in the software.
+Here we present the JAMA device built in a way to facilitate tests and updates in the software. The total weight of JAMA is 134 grams.
 
 <p align="center">
   <img width="1080" height="1920" src="https://github.com/tuliofalmeida/jama/blob/main/img/JAMA.png">
