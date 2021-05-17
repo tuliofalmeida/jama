@@ -87,7 +87,7 @@ This project brings support for the ESP32 chip to the Arduino environment. It le
 
 [PlatformIO](https://platformio.org/) is an open source ecosystem for IoT
 development with a cross-platform build system, a library manager, and full support
-for Espressif (ESP8266) development. It works on the following popular host operating systems: macOS, Windows,
+for Espressif (ESP32) development. It works on the following popular host operating systems: macOS, Windows,
 Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
 
 - [What is PlatformIO?](https://docs.platformio.org/en/latest/what-is-platformio.html)
