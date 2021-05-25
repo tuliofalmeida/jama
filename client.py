@@ -53,7 +53,7 @@ def clientTCP(HOST,PORT,indEsp):
     time.sleep(10)
     print("Started sending ",indEsp)
     tcp.send (bytes('1?' + str(on_time) + ',' + str(frequency), 'utf-8'))
-    tempo[indEsp].append(current_milli_time()) 
+    data_time[indEsp].append(current_milli_time()) 
     tempoInicio = current_milli_time()
     while True:
         dataTemp[indEsp] = tcp.recv(64000)
@@ -70,12 +70,12 @@ def worker2(message):
     clientTCP(ip2,gate,1) 
 
 t1 = threading.Thread(target=worker1,args=("Thread being executed",));t1.start()
-t2 = threading.Thread(target=worker2,args=("Thread being executed ",));t2.start()
+t2 = threading.Thread(target=worker2,args=("Thread being executed",));t2.start()
 
 time.sleep(on_time+60)
 
 with open(("Data"+data_name), "w") as output:
     output.write(str(data))
 
-with open(("DataTime"+data_name), "w") as output:
-    output.write(str(data_time))
+# with open(("DataTime"+data_name), "w") as output:
+#     output.write(str(data_time))
