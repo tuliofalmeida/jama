@@ -1,4 +1,4 @@
-# JAMA - Joint Angle Measurement and Acquisition Device
+# JAMA - Joint Angle Measurement and Acquisition device
 ----------------------------------------------------
 
 JAMA is open access hardware that was developed during my master's work at [Edmond and Lily Safra International Institute of Neuroscience](https://github.com/isd-iin-els) of [Santos Dumont Insitute](http://www.institutosantosdumont.org.br/unidade/instituto-neurociencias-iinels/). The function of JAMA is to measure joint angles wirelessly with 9 DOF, using a microcontroller (ESP32) together with an inertial measure unit (GY-80). Here we are providing all the codes and guidelines necessary to build this device and with the structure provided it will be easy to adapt to other sensors or microcontrollers. Together with JAMA, we developed a python library ([PyJama](https://github.com/tuliofalmeida/pyjama)) to analyze the extracted data using JAMA and other devices available on the market (IMU, MIMU, optical devices).
@@ -87,7 +87,7 @@ This project brings support for the ESP32 chip to the Arduino environment. It le
 
 [PlatformIO](https://platformio.org/) is an open source ecosystem for IoT
 development with a cross-platform build system, a library manager, and full support
-for Espressif (ESP8266) development. It works on the following popular host operating systems: macOS, Windows,
+for Espressif (ESP32) development. It works on the following popular host operating systems: macOS, Windows,
 Linux 32/64, and Linux ARM (like Raspberry Pi, BeagleBone, CubieBoard).
 
 - [What is PlatformIO?](https://docs.platformio.org/en/latest/what-is-platformio.html)
@@ -120,7 +120,7 @@ Step by step:
 
 # JAMA Device
 
-Here we present the JAMA device built in a way to facilitate tests and updates in the software.
+Here we present the JAMA device built in a way to facilitate tests and updates in the software. The total weight of JAMA is 134 grams.
 
 <p align="center">
   <img width="1080" height="1920" src="https://github.com/tuliofalmeida/jama/blob/main/img/JAMA.png">
