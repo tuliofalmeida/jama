@@ -31,17 +31,16 @@ SOFTWARE.
 """
 #_________________________________________________________________________
 # Variables to be edited
-data_name = 'Data_1.txt' # File name
-on_time = 120 # Acquisition time
-frequency = 75 # Acquisition frequency (must be the same as ESP)
+data_name = 'Data.txt' # File name
+on_time = 30 # Acquisition time
+frequency = 75 # Acquisition frequency (must be the same as JAMA)
 ip1 = '192.168.137.100' # edit the IP of device 1
 ip2 = '192.168.137.101' # edit the IP of device 2
-gate = 4000 # If you change the gate here, you must change on ESP32 too.
+gate = 4000 # If you change the gate here, you must change on JAMA too.
 #_________________________________________________________________________
 
 data = [[],[],[],[],[],[],[],[]]
 dataTemp = [[],[],[],[],[],[],[],[]]
-data_time = [[],[],[],[],[],[],[],[]]
 data_lock = Lock()
 current_milli_time = lambda: int(round(time.time() * 1000))
 
@@ -51,20 +50,21 @@ def clientTCP(HOST,PORT,indEsp):
     tcp.connect(dest)
     print ('To quit CTRL+X\n' + HOST)
     time.sleep(10)
-    print("Started sending ",indEsp)
+    print("Started sending JAMA",indEsp+1)
     tcp.send (bytes('1?' + str(on_time) + ',' + str(frequency), 'utf-8'))
-    data_time[indEsp].append(current_milli_time()) 
     tempoInicio = current_milli_time()
     while True:
         dataTemp[indEsp] = tcp.recv(64000)
         data[indEsp].append(dataTemp[indEsp])
         if ((current_milli_time()-tempoInicio)/1000 > on_time):
-            print("Sending is finished")
+            print("Data sending is ending.") 
+            print("Data sending is ending..") 
+            print("Data sending is ending...") 
 
     tcp.close()
 
 def worker1(message):
-    clientTCP(ip1,gate,0) 
+    clientTCP(ip1,gate,0)
 
 def worker2(message):
     clientTCP(ip2,gate,1) 
@@ -74,8 +74,7 @@ t2 = threading.Thread(target=worker2,args=("Thread being executed",));t2.start()
 
 time.sleep(on_time+60)
 
-with open(("Data"+data_name), "w") as output:
+with open((data_name), "w") as output:
     output.write(str(data))
 
-# with open(("DataTime"+data_name), "w") as output:
-#     output.write(str(data_time))
+print('Data collection completed and data saved in the file ', data_name)
