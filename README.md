@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="640" height="480" src="https://github.com/tuliofalmeida/jama/blob/main/img/jama%20logo.png">
+  <img width="900" height="480" src="https://github.com/tuliofalmeida/jama/blob/main/img/jama%20logo.png">
 </p>
 
 # JAMA - Joint Angle Measurement and Acquisition device
